@@ -1,0 +1,2387 @@
+{
+    "navbar": {
+        "items": [
+            {
+                "caption": "Info",
+                "href": "#info",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Skills",
+                "href": "#skills",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Projects",
+                "href": "#projects",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Work Experience",
+                "href": "#work_experience",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Education",
+                "href": "#education",
+                "class": "nav-link"
+            }
+        ]
+    },
+    "sections": {
+        "info": {
+            "surname": "Carotenuto",
+            "name": "Salvatore",
+            "location": "Giffoni Valle Piana, Salerno, Italy",
+            "phone": "(347) 6063673",
+            "email": "ultimoistante@gmail.com",
+            "links": [
+                {
+                    "href": "https://www.linkedin.com/in/salvatorecarotenuto/",
+                    "iconClass": "fab fa-linkedin-in"
+                },
+                {
+                    "href": "https://github.com/ultimoistante",
+                    "iconClass": "fab fa-github"
+                },
+                {
+                    "href": "https://github.com/startupsolutions",
+                    "iconClass": "fab fa-github"
+                }
+            ],
+            "files": [
+                {
+                    "href": "assets/files/SalvatoreCarotenuto-curriculum_vitae-rev_2025.05_en.pdf",
+                    "caption": "Curriculum Vitae (PDF)"
+                }
+            ]
+        },
+        "work_experience": {
+            "header": "Work Experience",
+            "items": [
+                {
+                    "role": "Frontend Framework and Game developer",
+                    "company": "GST Gaming",
+                    "description": "Design and development of a modular and fully responsive framework for gaming applications (online slots) written in JavaScript and based on Phaser3. Developed also many games based on framework.",
+                    "timespan": "mar 2022 >>",
+                    "tags": [
+                        "Game development",
+                        "Online gaming",
+                        "JavaScript",
+                        "Phaser3",
+                        "HTML5",
+                        "Spine"
+                    ]
+                },
+                {
+                    "role": "Backend developer",
+                    "company": "Prassel",
+                    "description": "Backend developer/mantainer on ViMS videosurveillance software suite (Python / Django / Twisted)",
+                    "timespan": "feb 2022",
+                    "tags": [
+                        "Python",
+                        "Django",
+                        "Twisted",
+                        "CentOS"
+                    ]
+                },
+                {
+                    "role": "Frontend Framework and Game developer",
+                    "company": "Tuko Productions / Intermedia2000",
+                    "description": "Redesign and development of a framework for gaming applications (online slots) in JavaScript on Phaser3 (audio handling, win animations, reels and symbols movement, particle engines, character handling, spine animations, responsive handling) starting from an exiting custom framework based on Phaser CE. Developed game logic on games based on a custom existing framework running on Phaser CE;",
+                    "timespan": "oct 2020 - jan 2022",
+                    "tags": [
+                        "Game development",
+                        "Online gaming",
+                        "JavaScript",
+                        "Phaser3",
+                        "Phaser CE",
+                        "HTML5"
+                    ]
+                },
+                {
+                    "role": "Senior full-stack developer",
+                    "company": "Armonia / NinjaCampus",
+                    "description": "Backend development on web applications ad REST APIs in JavaScript / TypeScript on NodeJS / Express and Nest.js, and on PHP / Laravel; Frontend development in HTML5/CSS3, jQuery, Vue.js, React Hooks;",
+                    "timespan": "jun 2020 - sep 2020",
+                    "tags": [
+                        "JavaScript",
+                        "TypeScript",
+                        "REST API",
+                        "Node.js",
+                        "PHP",
+                        "Laravel",
+                        "HTML5",
+                        "CSS3",
+                        "jQuery",
+                        "Vue.js",
+                        "React"
+                    ]
+                },
+                {
+                    "role": "Firmware / software head developer",
+                    "company": "Takius",
+                    "description": "Head firmware / software developer. The company deals with the design and production of hardware/software systems with applications in industrial and business sectors;",
+                    "timespan": "oct 2018 - may 2020",
+                    "tags": [
+                        "Firmware",
+                        "C",
+                        "C++",
+                        "GNU/Linux",
+                        "Embedded Systems",
+                        "Web Development"
+                    ]
+                },
+                {
+                    "role": "Technical teacher on school-work programs (public high schools)",
+                    "company": "Liceo Scientifico 'Severi' (Salerno) / Liceo Scientifico 'Da Vinci' (Poggiomarino - NA) / IIS 'Marconi' (Nocera Inferiore - SA)",
+                    "description": "Software development courses on Arduino and Web/Mobile Applications at the Liceo Scientifico 'Severi' (Salerno), Liceo Scientifico 'Da Vinci' (Poggiomarino - NA), and the IIS 'Marconi' (Nocera Inferiore - SA);",
+                    "timespan": "2016 - 2018",
+                    "tags": [
+                        "C++",
+                        "Python",
+                        "JavaScript",
+                        "Arduino",
+                        "Phaser3",
+                        "GNU/Linux"
+                    ]
+                },
+                {
+                    "role": "Head developer, CEO/CTO",
+                    "company": "Startup Solutions",
+                    "description": "Owner of Startup Solutions, a company specialized in the development of technological solutions in the fields of IT, digital entertainment and industrial and civil automation. The company has developed software for mobile devices and firmware for embedded systems and microcontrollers. Roles covered: Head of Design, Research and Development, Automation, Linux, Android and Embedded Systems;",
+                    "timespan": "2012 - 2017",
+                    "tags": [
+                        "GNU/Linux",
+                        "Embedded Systems",
+                        "Firmware",
+                        "Web Development",
+                        "Mobile Development",
+                        "C++",
+                        "Python",
+                        "JavaScript",
+                        "REST API",
+                        "Flask",
+                        "Node.js",
+                        "MQTT",
+                        "HTML5",
+                        "CSS3",
+                        "Angular.js",
+                        "Vue.js"
+                    ]
+                },
+                {
+                    "role": "Professional collaboration",
+                    "company": "GennaGroup / other",
+                    "description": "Professional collaboration with GennaGroup company in the completion of the PlayOn project (hardware/software platform for coin-op gaming); Collaborations with other companies in the technology sector;",
+                    "timespan": "2008 - 2012",
+                    "tags": [
+                        "Game Development",
+                        "GNU/Linux",
+                        "Firmware",
+                        "C++",
+                        "Lua",
+                        "JavaScript",
+                        "Java"
+                    ]
+                },
+                {
+                    "role": "Head developer / Co-founder",
+                    "company": "Emthesis Development",
+                    "description": "Founding member of Emthesis Development, a multimedia and videogames development company, where I held the roles of OOP Design, Web Design/Development, Game Design, Network Programming, 2D API Programming, Mobile Gaming, software infrastructure programming and support for resource coordination and generic programming. The company has produced some budget games for PC marketed in the European Union. The company has also dealt, within the collaboration with the GennaGroup company, with the design and implementation of the Play-On Multimedia System (linux-based hardware platform for the coin-op sector and for the creation and integration in various multimedia systems);",
+                    "timespan": "2003 - 2008",
+                    "tags": [
+                        "Game Development",
+                        "Game Design",
+                        "Mobile Development",
+                        "C++",
+                        "Lua",
+                        "Java",
+                        "GNU/Linux"
+                    ]
+                },
+                {
+                    "role": "Programmer Analyst",
+                    "company": "ITSoft",
+                    "description": "Programmer analyst at ITSoft (ITS S.p.A. group). Projects completed: multithreaded C++ programming in Sun Solaris; Implementation of a real-time system, in C++, of a codec for video encoding/decoding in H.263 standard, subsequently integrated into a videochat system for Telecom Italia on Compaq iPaq handhelds (o.s. Microsoft PocketPC); Development of management modules in C++ in the context of e-learning systems on behalf of netStre@m (ITS group); Development of Java components in the context of the Avvocatura dello Stato Project for the client Finsiel S.p.a., in Rome;",
+                    "timespan": "2002 - 2003",
+                    "tags": [
+                        "C++",
+                        "Java",
+                        "UNIX"
+                    ]
+                },
+                {
+                    "role": "Programmer Analyst",
+                    "company": "APWeb",
+                    "description": "Java development on enterprise applications based on technologies related to Enterprise Java applications, such as JavaBeans, Java Server Pages, Servlets;",
+                    "timespan": "2001",
+                    "tags": [
+                        "Java"
+                    ]
+                },
+                {
+                    "role": "Trainer Laboratorio di Informatica",
+                    "company": "Associazione 'Il Pioppo'",
+                    "description": "Trainer of the Computer Expression Laboratory of the Time Out Day Center / Ser.T. District 76 (ASL NA 4), for the introduction to basic computer usage;",
+                    "timespan": "2000 - 2001",
+                    "tags": [
+                        "Education"
+                    ]
+                },
+                {
+                    "role": "Software / firmware development",
+                    "company": "PixLab",
+                    "description": "Occasional collaboration in the development of firmware on DataGeneral palmtop systems, DataGenie2 model, and of MS Windows software related to a demonstration application proposed to Alenia S.p.A.; Development of firmware on MS-DOS HIT palmtop systems and of MS Windows software related to a demonstration application proposed to Italgas S.p.A.",
+                    "timespan": "1998 - 2000",
+                    "tags": [
+                        "C",
+                        "MS-DOS",
+                        "Windows"
+                    ]
+                },
+                {
+                    "role": "Developer / 3D Artist",
+                    "company": "",
+                    "description": "Experiences in game programming in AmigaOS and Windows environments, as a developer and 3D graphic designer;",
+                    "timespan": "1996 - 1998",
+                    "tags": [
+                        "BlitzBasic",
+                        "AMOS",
+                        "Real3D",
+                        "Amiga OS",
+                        "Windows"
+                    ]
+                },
+                {
+                    "role": "Freelance developer",
+                    "company": "",
+                    "description": "Development of an hardware/software system for lighting effects systems automation for discos, in an AmigaOS environment. Development of software in MS-DOS environment and C language for the complete management of a gym (customer management, training program management, nutrition programs, etc.);",
+                    "timespan": "1996",
+                    "tags": [
+                        "AMOS",
+                        "Amiga OS",
+                        "MS-DOS"
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "header": "Education",
+            "items": [
+                {
+                    "header": "Self training",
+                    "subheader": "",
+                    "description": "I study and update myself continuously. In recent years I have developed in-depth knowledge in various programming and scripting languages, specializing in development on GNU/Linux operating systems, on embedded and mobile systems, in the development of web-based infrastructures, as well as in the development of firmware for microcontrollers, and in technologies used in the infrastructures of game development and multimedia sector",
+                    "timespan": "2003 - today"
+                },
+                {
+                    "header": "Campania Region",
+                    "subheader": "AIFA training course",
+                    "description": "AIFA Campania Region training course, aimed at hiring by the company ITSoft (ITS S.p.A. group). Topics covered: C, C++, Java programming, DBMS use (SQL), programming in UNIX environments.",
+                    "timespan": "2001 - 2002"
+                },
+                {
+                    "header": "State University of Salerno",
+                    "subheader": "Bachelor's Degree in Computer Science",
+                    "description": "uncompleted course of study",
+                    "timespan": "1995 - 1997"
+                },
+                {
+                    "header": "Technical State High School",
+                    "subheader": "Industrial Chief Technician Degree",
+                    "description": "Computer Science Specialization",
+                    "timespan": "1990 - 1995"
+                }
+            ]
+        },
+        "skills": {
+            "header": "Skills",
+            "summary": {
+                "sections": [
+                    {
+                        "header": "Programming languages",
+                        "icons": [
+                            {
+                                "src": "assets/images/icons/js.svg",
+                                "name": "JavaScript"
+                            },
+                            {
+                                "src": "assets/images/icons/html5.svg",
+                                "name": "HTML5"
+                            },
+                            {
+                                "src": "assets/images/icons/css3.svg",
+                                "name": "CSS3"
+                            },
+                            {
+                                "src": "assets/images/icons/ts.svg",
+                                "name": "TypeScript"
+                            },
+                            {
+                                "src": "assets/images/icons/python.svg",
+                                "name": "Python"
+                            },
+                            {
+                                "src": "assets/images/icons/c.svg",
+                                "name": "C"
+                            },
+                            {
+                                "src": "assets/images/icons/c++.svg",
+                                "name": "C++"
+                            },
+                            {
+                                "src": "assets/images/icons/java.svg",
+                                "name": "Java"
+                            },
+                            {
+                                "src": "assets/images/icons/kotlin.svg",
+                                "name": "Kotlin"
+                            },
+                            {
+                                "src": "assets/images/icons/lua.svg",
+                                "name": "Lua"
+                            },
+                            {
+                                "src": "assets/images/icons/bash.svg",
+                                "name": "Bash scripting"
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Programming environments, tools, technologies",
+                        "icons": [
+                            {
+                                "src": "assets/images/icons/phaser.svg",
+                                "name": "Phaser"
+                            },
+                            {
+                                "src": "assets/images/icons/svelte.svg",
+                                "name": "Svelte"
+                            },
+                            {
+                                "src": "assets/images/icons/vuejs.svg",
+                                "name": "Vue.js"
+                            },
+                            {
+                                "src": "assets/images/icons/bootstrap.svg",
+                                "name": "Bootstrap"
+                            },
+                            {
+                                "src": "assets/images/icons/angularjs.svg",
+                                "name": "AngularJS"
+                            },
+                            {
+                                "src": "assets/images/icons/jquery.svg",
+                                "name": "jQuery"
+                            },
+                            {
+                                "src": "assets/images/icons/nodejs.svg",
+                                "name": "NodeJS"
+                            },
+                            {
+                                "src": "assets/images/icons/npm.svg",
+                                "name": "Npm"
+                            },
+                            {
+                                "src": "assets/images/icons/vite.svg",
+                                "name": "Vite"
+                            },
+                            {
+                                "src": "assets/images/icons/rollup.svg",
+                                "name": "Rollup"
+                            },
+                            {
+                                "src": "assets/images/icons/flask.svg",
+                                "name": "Python-Flask"
+                            },
+                            {
+                                "src": "assets/images/icons/php.svg",
+                                "name": "PHP"
+                            },
+                            {
+                                "src": "assets/images/icons/cordova.svg",
+                                "name": "Apache Cordova"
+                            },
+                            {
+                                "src": "assets/images/icons/nativescript.svg",
+                                "name": "NativeScript"
+                            },
+                            {
+                                "src": "assets/images/icons/nwjs.svg",
+                                "name": "NW.js"
+                            },
+                            {
+                                "src": "assets/images/icons/qt.svg",
+                                "name": "Qt"
+                            },
+                            {
+                                "src": "assets/images/icons/mongodb.svg",
+                                "name": "MongoDB"
+                            },
+                            {
+                                "src": "assets/images/icons/mysql.svg",
+                                "name": "MySQL"
+                            },
+                            {
+                                "src": "assets/images/icons/linux.svg",
+                                "name": "GNU/linux"
+                            },
+                            {
+                                "src": "assets/images/icons/raspberrypi.svg",
+                                "name": "RaspberryPI"
+                            },
+                            {
+                                "src": "assets/images/icons/docker.svg",
+                                "name": "Docker"
+                            },
+                            {
+                                "src": "assets/images/icons/yocto.svg",
+                                "name": "Yocto"
+                            },
+                            {
+                                "src": "assets/images/icons/android.svg",
+                                "name": "Google Android"
+                            },
+                            {
+                                "src": "assets/images/icons/arduino.svg",
+                                "name": "Arduino"
+                            },
+                            {
+                                "src": "assets/images/icons/atmel.svg",
+                                "name": "Atmel microcontrollers"
+                            },
+                            {
+                                "src": "assets/images/icons/microchip.svg",
+                                "name": "Microchip microcontrollers"
+                            },
+                            {
+                                "src": "assets/images/icons/st.svg",
+                                "name": "ST Microelectronics microcontrollers"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sections": [
+                {
+                    "name": "Web Development (Phaser / HTML5 / CSS3 / JS / TS / Svelte / Vue.js / AngularJS / Bootstrap / jQuery)",
+                    "details": [
+                        "development of video games and multimedia applications based on Phaser framework",
+                        "development of web applications, progressive web applications (PWA), single page applications (SPA)",
+                        "creation of user interfaces (HMI) on embedded systems"
+                    ]
+                },
+                {
+                    "name": "Python",
+                    "details": [
+                        "generic OOP programming",
+                        "development of client/server systems (HTTP, WebSockets), data management and persistence (REST API, DBMS interfacing)",
+                        "data processing, multimedia, web scraping, system automation",
+                        "DominoMQTT: A simple, complete starter project for DominoMQTT architecture. A quick and easy way to build MQTT-based applications, with Python, AngularJS and Socket.io. (Python/AngularJS/Socket.io microframework for the rapid creation of web applications based on lightweight MQTT messaging - https://github.com/startupsolutions/dominomqtt_starter)"
+                    ]
+                },
+                {
+                    "name": "C / C++",
+                    "details": [
+                        "advanced programming in GNU/Linux desktop and embedded environments (multimedia software, physical simulations, client-server applications, data processing, DBMS interfacing, image and video processing, computer vision)",
+                        "firmware development on microcontroller systems"
+                    ]
+                },
+                {
+                    "name": "Java / Kotlin",
+                    "details": [
+                        "development of native applications on Android mobile systems",
+                        "advanced programming both in general and Enterprise Environment (Servlets, REST APIs, persistence management on DBMS, distributed systems, etc...)",
+                        "experience in development of graphical user interfaces based on Swing and AWT components"
+                    ]
+                },
+                {
+                    "name": "Lua",
+                    "details": [
+                        "extending C++ applications by embedding Lua interpreter, binding native C/C++ libraries to Lua",
+                        "design and development of a framework for multimedia applications and videogames (ELF Integrated Scripting System) based on native C++ binding and scripting in Lua language",
+                        "Canon Camera Automation Scripts [CHDK]"
+                    ]
+                },
+                {
+                    "name": "Bash scripting",
+                    "details": [
+                        "development of scripts for system automation, to support work sessions"
+                    ]
+                },
+                {
+                    "name": "Cordova / NativeScript / NW.js / Qt",
+                    "details": [
+                        "development of multi-platform mobile applications",
+                        "development of desktop applications based on web technologies (NW.js)",
+                        "development of touchscreen user interfaces (HMI) based on embedded systems (Qt)"
+                    ]
+                },
+                {
+                    "name": "Flask / NodeJS / Npm / PHP / MongoDB / MySQL",
+                    "details": [
+                        "Webservices and REST API development",
+                        "development of plugins for CMS systems"
+                    ]
+                },
+                {
+                    "name": "GNU/Linux / RaspberryPi / Docker / Yocto",
+                    "details": [
+                        "in-depth knowledge of GNU/Linux operating systems (use both professionally and personally since 2003)",
+                        "in-depth knowledge of embedded GNU/Linux systems (RaspberryPi, OrangePi, BananaPi, BeagleBone, etc.)",
+                        "development of ad-hoc GNU/Linux distributions for embedded systems (using Yocto/Buildroot and Docker images)",
+                        "design and implementation of a coin-op oriented gaming platform (PlayOn Entertainment System, 2006)"
+                    ]
+                },
+                {
+                    "name": "Android",
+                    "details": [
+                        "development of applications for Android mobile systems, both in native code (Java/Kotlin) and through web-based frameworks (Cordova, NativeScript)"
+                    ]
+                },
+                {
+                    "name": "Microcontroller development",
+                    "details": [
+                        "development of applications for microcontroller systems",
+                        "in-depth knowledge of data communication protocols, including for industrial applications (UART, RS232, RS485, Modbus)",
+                        "interfacing sensors and actuators using various protocols (I2C, SPI)",
+                        "interfacing of alphanumeric, graphic and TFT displays",
+                        "DC and stepper motor driving"
+                    ]
+                }
+            ]
+        },
+        "projects": {
+            "header": "Projects",
+            "items": [
+                {
+                    "title": "GDK Framework + Web/Mobile Games",
+                    "description": "Design and development of a modular framework for the rapid creation of multimedia web applications, focused on online slot games, based on Phaser3. Complete and automatic management of responsive, self-adapting on any device, including mobile. Heavily configurable via JSON scripts.<br>Development of various games based on the framework.",
+                    "tags": [
+                        "online gaming",
+                        "JavaScript",
+                        "Phaser3",
+                        "Spine",
+                        "HTML5"
+                    ],
+                    "timespan": "2022-2025",
+                    "company": "GSTGaming",
+                    "customer": "GSTGaming (Alessandria)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/crcs_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/crcs_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/crcs_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/crcs_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/crcs_05.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_05.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_06.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_07.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/taoi_08.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/alrb_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/alrb_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/alrb_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/alrb_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/ludi_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/ludi_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/ludi_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/ludi_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/ludi_05.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_05.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_06.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/frng_07.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/cama_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/cama_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/cama_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/cama_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/cama_05.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/falu_01.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/falu_02.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/falu_03.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/falu_04.jpg",
+                                "alt": "gstgaming_gdk"
+                            },
+                            {
+                                "src": "assets/images/projects/gstgaming_gdk/falu_05.jpg",
+                                "alt": "gstgaming_gdk"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "TukoSlotsClient new framework + Web/Mobile games",
+                    "description": "Redesign and development of a framework for gaming applications (online slots) in JavaScript on Phaser3 (audio management, win animations, reel and symbol movement, particle engines, character management, spine animations, responsive management) starting from an existing proprietary framework based on Phaser CE. Implementation of game logics for games based on existing Phaser CE framework;",
+                    "tags": [
+                        "online gaming",
+                        "JavaScript",
+                        "Phaser3",
+                        "Phaser CE",
+                        "HTML5"
+                    ],
+                    "timespan": "2020-2022",
+                    "company": "Tuko Productions",
+                    "customer": "Tuko Productions (Battipaglia, SA)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/tuko/coffeeshop01.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/coffeeshop02.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/coffeeshop06.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/coffeeshop04.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/coffeeshop05.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/barbershop01.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/barbershop02.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/barbershop03.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/redthief01.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/redthief02.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/luchalibre01.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/luchalibre02.jpg",
+                                "alt": "tukoproductions"
+                            },
+                            {
+                                "src": "assets/images/projects/tuko/luchalibre03.jpg",
+                                "alt": "tukoproductions"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "ExteMachine Controller",
+                    "description": "Control electronics for hair extensions application devices. Reimplementation of temperature control firmware (PID) on an existing board (MCU Atmega8), creation of user interfaces on touch displays both on ESP32 MCU (for 3.5\") and on RaspberryPi embedded systems (for 5 and 7\") displays. ESP32 version: implementation in C++ of the layout and graphic widgets (buttons, textbox, etc.); RaspberryPi version: operating system image created ad-hoc using Buildroot, UI created in Python / PyQt5.",
+                    "tags": [
+                        "ESP32",
+                        "RaspberryPi",
+                        "C++",
+                        "python",
+                        "PyQt5",
+                        "buildroot",
+                        "embedded GNU/Linux"
+                    ],
+                    "timespan": "2020",
+                    "company": "---",
+                    "customer": "Improve Productions (Montecorvino Pugliano, SA)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/extemachine/IMG_20200213_202555.jpg",
+                                "alt": "extemachine"
+                            },
+                            {
+                                "src": "assets/images/projects/extemachine/IMG_20200213_214623.jpg",
+                                "alt": "extemachine"
+                            },
+                            {
+                                "src": "assets/images/projects/extemachine/IMG_20200127_001215.jpg",
+                                "alt": "extemachine"
+                            },
+                            {
+                                "src": "assets/images/projects/extemachine/IMG_20200127_001151.jpg",
+                                "alt": "extemachine"
+                            },
+                            {
+                                "src": "assets/images/projects/extemachine/IMG_20200127_002547.jpg",
+                                "alt": "extemachine"
+                            },
+                            {
+                                "src": "assets/images/projects/extemachine/IMG_20200206_213719.jpg",
+                                "alt": "extemachine"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "TAG MCode Machine Controller",
+                    "description": "Intelligent hardware controller for industrial fruit and vegetable packaging machines, with stepper motor-based motion. Asynchronous motion of motors with linear accelerations/decelerations between 400 and 2000 steps/sec, with precision to the hundredth of a millimeter. Design and implementation of the machine programming language (m-code), and implementation of the interpreter in register-based virtual machine mode. MCU: STM32. Implementation of the HMI user module based on an embedded GNU/Linux system with a frontend in HTML5/websocket/vue.js. HMI <-> MCU communication via Modbus RTU protocol. Implementation of a multiplatform \"code editor\" software based on vue.js and NW.js",
+                    "tags": [
+                        "C++",
+                        "STM32",
+                        "embedded GNU/Linux",
+                        "modbus",
+                        "python",
+                        "flask",
+                        "html5",
+                        "vue.js",
+                        "socket.io"
+                    ],
+                    "timespan": "2019 >",
+                    "company": "Takius",
+                    "customer": "TAG s.r.l. (Fabriano, AN)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20191122_163523.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20191122_163540.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20200124_150419.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20200124_150428.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20200125_120647.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20200125_120653.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/IMG_20200125_120706.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/MCodeProgramBuilder_01.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/MCodeProgramBuilder_02.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/MCodeProgramBuilder_03.jpg",
+                                "alt": "tag_mcode"
+                            },
+                            {
+                                "src": "assets/images/projects/tag_mcode/TAG_HMI_01.jpg",
+                                "alt": "tag_mcode"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "V-ITA BatteryClinic",
+                    "description": "Intelligent system for testing and reconditioning lithium batteries for pedal-assisted bicycles. Firmware design and implementation in C++ on STM32 MCU and software in Python (Flask + MQTT) and JavaScript (AngularJS) in GNU/linux embedded environment",
+                    "tags": [
+                        "python",
+                        "flask",
+                        "mqtt",
+                        "html5",
+                        "angularjs",
+                        "embedded GNU/Linux",
+                        "C++",
+                        "modbus"
+                    ],
+                    "timespan": "2019",
+                    "company": "Takius",
+                    "customer": "ViSa (Napoli)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/batteryclinic/IMG_20190730_111724.jpg",
+                                "alt": "batteryclinic"
+                            },
+                            {
+                                "src": "assets/images/projects/batteryclinic/IMG_20190607_103106.jpg",
+                                "alt": "batteryclinic"
+                            },
+                            {
+                                "src": "assets/images/projects/batteryclinic/IMG_20190607_180906.jpg",
+                                "alt": "batteryclinic"
+                            },
+                            {
+                                "src": "assets/images/projects/batteryclinic/IMG_20190531_191403.jpg",
+                                "alt": "batteryclinic"
+                            },
+                            {
+                                "src": "assets/images/projects/batteryclinic/IMG_20190730_111736.jpg",
+                                "alt": "batteryclinic"
+                            },
+                            {
+                                "src": "assets/images/projects/batteryclinic/IMG_20190607_103044.jpg",
+                                "alt": "batteryclinic"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "RotoKalt",
+                    "description": "Intelligent freecooling ventilation system for industrial environments, data centers and telecommunication centers. Firmware design and implementation in C++ on STM32 MCU and software in Python (Flask + MQTT) and JavaScript (AngularJS) in GNU/linux embedded environment",
+                    "tags": [
+                        "python",
+                        "flask",
+                        "mqtt",
+                        "html5",
+                        "angularjs",
+                        "embedded GNU/Linux",
+                        "C++",
+                        "modbus"
+                    ],
+                    "timespan": "2018 >>",
+                    "company": "Takius",
+                    "customer": "Vactis (Napoli)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20190128_153945.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20190128_153720_HDR.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20190128_153812.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20190730_165012.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20190403_122034.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20191018_152956.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20200228_174337.jpg",
+                                "alt": "rotokalt"
+                            },
+                            {
+                                "src": "assets/images/projects/rotokalt/IMG_20181029.jpg",
+                                "alt": "rotokalt"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Arco Aladin",
+                    "description": "Embedded control system for concentrated detergent dispensers with touchscreen display, RFID authentication, load cell management and dispensing actuators. Software in Python (Flask + MQTT) and JavaScript (AngularJS) on RaspberryPi SBC",
+                    "tags": [
+                        "python",
+                        "flask",
+                        "mqtt",
+                        "html5",
+                        "angularjs",
+                        "raspberrypi"
+                    ],
+                    "timespan": "2016-2017",
+                    "company": "Startup Solutions",
+                    "customer": "ARCO Chimica (Modena)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/arco_aladin/ArcoGynius_photo_480x800.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_01.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_02.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_03.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_04.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_05.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_06.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_07.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_screenshot_20170606_08.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_screenshot_20170713_01.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_screenshot_20170713_02.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_screenshot_20170713_03.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_screenshot_20170713_04.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_screenshot_20170713_05.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_screenshot_20170713_06.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_config_editor_20170508_01.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_config_editor_20170508_02.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/GT5_config_editor_20170508_03.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_config_editor_20170629_01.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_config_editor_20170629_02.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_config_editor_20170629_03.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/Pack_config_editor_20170629_04.jpg",
+                                "alt": "Arco Aladin"
+                            },
+                            {
+                                "src": "assets/images/projects/arco_aladin/IMG_20170611_204115.jpg",
+                                "alt": "Arco Aladin"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "OleoControl",
+                    "description": "Process monitoring system for oil mill, with customer queue management, processing temperature monitoring, processing report export in PDF. Firmware implementation in C++ on MCU ESP8266 and software in Python (Flask + MQTT) and JavaScript (AngularJS) on SBC RaspberryPi",
+                    "tags": [
+                        "python",
+                        "flask",
+                        "mqtt",
+                        "html5",
+                        "angularjs",
+                        "raspberrypi",
+                        "custom electronics",
+                        "ESP8266"
+                    ],
+                    "timespan": "2016",
+                    "company": "Startup Solutions",
+                    "customer": "Frantoio Terre Picentine (Giffoni Valle Piana)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/oleocontrol/display_unit_20161122.png",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/backend_unit_01.png",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/backend_unit_02.png",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/backend_unit_03.png",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/IMG_20161129_183101_HDR.jpg",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/IMG_20161129_183129_HDR.jpg",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/IMG_20160928_095837.jpg",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/IMG_20160928_095849.jpg",
+                                "alt": "oleocontrol"
+                            },
+                            {
+                                "src": "assets/images/projects/oleocontrol/IMG_20160928_095852.jpg",
+                                "alt": "oleocontrol"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Embedded system for booking management",
+                    "description": "Embedded system for booking management with touchscreen display, voice synthesis, ticket issuing via thermal printer",
+                    "tags": [
+                        "python",
+                        "html5",
+                        "angularjs",
+                        "raspberrypi"
+                    ],
+                    "timespan": "2016",
+                    "company": "Startup Solutions",
+                    "customer": "Takius",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/display_prenotazioni/screenshot01.jpg",
+                                "alt": "Display prenotazioni"
+                            },
+                            {
+                                "src": "assets/images/projects/display_prenotazioni/screenshot02.jpg",
+                                "alt": "Display prenotazioni"
+                            },
+                            {
+                                "src": "assets/images/projects/display_prenotazioni/photo01.jpg",
+                                "alt": "Display prenotazioni"
+                            },
+                            {
+                                "src": "assets/images/projects/display_prenotazioni/photo02.jpg",
+                                "alt": "Display prenotazioni"
+                            },
+                            {
+                                "src": "assets/images/projects/display_prenotazioni/photo03.jpg",
+                                "alt": "Display prenotazioni"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Utility di conversione GCode per macchina CNC taglio laser",
+                    "description": "Reverse engineering of communication protocol and implementation of standard G-Code to 'dialect' G-Code conversion utility for 250W Bulleri laser cutting machine tool (Python + wxPython)",
+                    "tags": [
+                        "python",
+                        "g-code",
+                        "svg",
+                        "serial"
+                    ],
+                    "timespan": "2016",
+                    "company": "Startup Solutions",
+                    "customer": "Termacustica (Salerno)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/gcodeprogramloader/IMG_20160202_100511.jpg",
+                                "alt": "gcodeprogramloader"
+                            },
+                            {
+                                "src": "assets/images/projects/gcodeprogramloader/IMG_20160202_101040.jpg",
+                                "alt": "gcodeprogramloader"
+                            },
+                            {
+                                "src": "assets/images/projects/gcodeprogramloader/IMG_20160202_102228.jpg",
+                                "alt": "gcodeprogramloader"
+                            },
+                            {
+                                "src": "assets/images/projects/gcodeprogramloader/IMG_20160202_105125.jpg",
+                                "alt": "gcodeprogramloader"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Phlay App: GLSL Shaders",
+                    "description": "Implementation of camera management and rendering components using GLSL shaders",
+                    "tags": [
+                        "java",
+                        "android"
+                    ],
+                    "timespan": "2016",
+                    "company": "Startup Solutions",
+                    "customer": "Emoticron (Napoli)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/phlay_app/phlay_app_01.jpg",
+                                "alt": "Phlay App"
+                            },
+                            {
+                                "src": "assets/images/projects/phlay_app/phlay_app_02.jpg",
+                                "alt": "Phlay App"
+                            },
+                            {
+                                "src": "assets/images/projects/phlay_app/phlay_app_03.jpg",
+                                "alt": "Phlay App"
+                            },
+                            {
+                                "src": "assets/images/projects/phlay_app/phlay_app_04.jpg",
+                                "alt": "Phlay App"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Giffoni Winter Arduino Lab 2015",
+                    "description": "Organization of a public event/workshop aimed at the introduction to Arduino programming, at the Informagiovani hall of Giffoni Valle Piana",
+                    "tags": [
+                        "arduino",
+                        "open-source",
+                        "making",
+                        "electronics"
+                    ],
+                    "timespan": "2015",
+                    "company": "OpenMakersItaly",
+                    "customer": "public event",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/giffoniwinterarduinolab2015/10391955_1744955969059414_1025822526244425141_n.jpg",
+                                "alt": "giffoniwinterarduinolab2015"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniwinterarduinolab2015/10576981_1746584098896601_6113616899807596045_n.jpg",
+                                "alt": "giffoniwinterarduinolab2015"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniwinterarduinolab2015/12376609_1746521672236177_4083092577966416998_n.jpg",
+                                "alt": "giffoniwinterarduinolab2015"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniwinterarduinolab2015/1934191_1746504785571199_6914576314838271865_n.jpg",
+                                "alt": "giffoniwinterarduinolab2015"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniwinterarduinolab2015/11205072_1746521568902854_4557753369450353022_n.jpg",
+                                "alt": "giffoniwinterarduinolab2015"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "CoreTech Sygma: Linux Agent / RPC",
+                    "description": "Software for remote monitoring of system parameters, and remote procedure execution.",
+                    "tags": [
+                        "python",
+                        "linux"
+                    ],
+                    "timespan": "2015",
+                    "company": "Startup Solutions",
+                    "customer": "CoreTech (Milano)",
+                    "media": {
+                        "header_text": "Immagini:",
+                        "images": []
+                    }
+                },
+                {
+                    "title": "Arco Gynius: Android/Arduino automation",
+                    "description": "Prototype for the automation of automatic detergent dispensers, based on Android, Arduino and Bluetooth.",
+                    "image": {
+                        "src": "assets/images/projects/recent-work_arcogynius.jpg",
+                        "alt": "Recent work: Arco Gynius Android/Arduino automation"
+                    },
+                    "tags": [
+                        "java",
+                        "android",
+                        "arduino",
+                        "bluetooth",
+                        "electronics"
+                    ],
+                    "timespan": "2015",
+                    "company": "Startup Solutions",
+                    "customer": "ARCO Chimica (Modena)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/arcogynius_image_00.jpg",
+                                "alt": "Arco-Gynius"
+                            },
+                            {
+                                "src": "assets/images/projects/arcogynius_screenshot_01.png",
+                                "alt": "Arco-Gynius"
+                            },
+                            {
+                                "src": "assets/images/projects/arcogynius_screenshot_02.png",
+                                "alt": "Arco-Gynius"
+                            },
+                            {
+                                "src": "assets/images/projects/arcogynius_screenshot_03.png",
+                                "alt": "Arco-Gynius"
+                            },
+                            {
+                                "src": "assets/images/projects/arcogynius_screenshot_04.png",
+                                "alt": "Arco-Gynius"
+                            },
+                            {
+                                "src": "assets/images/projects/arcogynius_screenshot_05.png",
+                                "alt": "Arco-Gynius"
+                            },
+                            {
+                                "src": "assets/images/projects/arcogynius_screenshot_06.png",
+                                "alt": "Arco-Gynius"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Arduino Day 2015",
+                    "description": "Participation in the Arduino Day 2015 event in Avellino with a talk on Arduino and 3D Printing",
+                    "tags": [
+                        "arduino",
+                        "microcontroller",
+                        "electronics",
+                        "3d printing"
+                    ],
+                    "timespan": "2015",
+                    "company": "OpenMakersItaly",
+                    "customer": "public event",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/arduinoday2015/1.jpg",
+                                "alt": "arduinoday2015"
+                            },
+                            {
+                                "src": "assets/images/projects/arduinoday2015/2.jpg",
+                                "alt": "arduinoday2015"
+                            },
+                            {
+                                "src": "assets/images/projects/arduinoday2015/3.jpg",
+                                "alt": "arduinoday2015"
+                            },
+                            {
+                                "src": "assets/images/projects/arduinoday2015/4.jpg",
+                                "alt": "arduinoday2015"
+                            },
+                            {
+                                "src": "assets/images/projects/arduinoday2015/5.jpg",
+                                "alt": "arduinoday2015"
+                            },
+                            {
+                                "src": "assets/images/projects/arduinoday2015/6.jpg",
+                                "alt": "arduinoday2015"
+                            },
+                            {
+                                "src": "assets/images/projects/arduinoday2015/7.jpg",
+                                "alt": "arduinoday2015"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "3DBodyScanner",
+                    "description": "Automated system for three-dimensional photogrammetric scanning of human subjects, through control and automation of 100 digital cameras",
+                    "tags": [
+                        "custom electronics",
+                        "linux",
+                        "raspberry pi",
+                        "python",
+                        "Angular.js",
+                        "HTML5",
+                        "node.js",
+                        "3D scanning"
+                    ],
+                    "timespan": "2014-2015",
+                    "company": "Startup Solutions",
+                    "customer": "DeArtis Digitale (Napoli)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_scanner_01.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_scanner_02.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_scanner_03.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_scanner_04.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_scanner_05.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_01.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_02.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_03.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_04.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_05.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_06.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_07.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_08.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_minime_09.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_01.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_02.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_03.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_04.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_05.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_06.jpg",
+                                "alt": "3DBodyScanner"
+                            },
+                            {
+                                "src": "assets/images/projects/3dbodyscanner/3dbodyscanner_07.jpg",
+                                "alt": "3DBodyScanner"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "MobileInnovationDay Napoli 2014",
+                    "description": "Participation in the public event MobileInnovationDay organized by Google Developers Group Campania, at the Parthenope University of Naples with a talk on the interfacing of custom devices to Android systems using the Bluetooth protocol",
+                    "tags": [
+                        "android",
+                        "open-source",
+                        "making",
+                        "custom electronics",
+                        "bluetooth",
+                        "java"
+                    ],
+                    "timespan": "2014",
+                    "company": "OpenMakersItaly",
+                    "customer": "public event",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/mobileinnovationday2014/IMG_9629.jpg",
+                                "alt": "mobileinnovationday2014"
+                            },
+                            {
+                                "src": "assets/images/projects/mobileinnovationday2014/IMG_9633.jpg",
+                                "alt": "mobileinnovationday2014"
+                            },
+                            {
+                                "src": "assets/images/projects/mobileinnovationday2014/IMG_9628.jpg",
+                                "alt": "mobileinnovationday2014"
+                            },
+                            {
+                                "src": "assets/images/projects/mobileinnovationday2014/IMG_9650.jpg",
+                                "alt": "mobileinnovationday2014"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "SIPortal Server Backend",
+                    "description": "Backend for data persistence management, REST API and PDF reporting.",
+                    "image": {
+                        "src": "assets/images/projects/recent-work_siportal.jpg",
+                        "alt": "Recent work: SIPortal Server Backend"
+                    },
+                    "tags": [
+                        "java",
+                        "hybernate",
+                        "mysql",
+                        "glassfish",
+                        "REST API",
+                        "json",
+                        "pdf"
+                    ],
+                    "timespan": "2014",
+                    "company": "Startup Solutions",
+                    "customer": "ServiceImpianti (Isernia)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/projects-siportal_01.jpg",
+                                "alt": "SIPortal"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "OpenMakersDay Napoli 2014",
+                    "description": "Organization of a public event (in collaboration with Google Developers Group Campania) dedicated to Free Software and making, at the Parthenope University of Naples",
+                    "tags": [
+                        "linux",
+                        "android",
+                        "open-source",
+                        "making",
+                        "electronics",
+                        "3d-print"
+                    ],
+                    "timespan": "2014",
+                    "company": "OpenMakersItaly",
+                    "customer": "public event",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/10262262_1501983103356703_7008125058988905883_n.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/10487204_1516935535194793_2221287079772611203_n.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/IMG_2463.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/IMG_2471.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/IMG_2473.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/IMG_2583.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaynapoli2014/IMG_2852.jpg",
+                                "alt": "openmakersdaynapoli2014"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Witness",
+                    "description": "Multi-platform software for intelligent recording of environmental audio streams, built in mixed technology (backend in C++, scripting in Lua, UI in HTML5/JavaScript/jQuery)",
+                    "tags": [
+                        "linux",
+                        "windows",
+                        "lua",
+                        "javascript",
+                        "html5",
+                        "c++"
+                    ],
+                    "timespan": "2014",
+                    "company": "Startup Solutions",
+                    "customer": "CSZ Investigazioni (Padova)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/witness/projects-witness_01.jpg",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/projects-witness_02.jpg",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/projects-witness_03.jpg",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/witness_ui_screenshot_20140701_2.png",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/witness_ui_screenshot_20140701_6.png",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/witness_ui_screenshot_20140701_12.png",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/witness_ui_screenshot_20141008_02.png",
+                                "alt": "witness"
+                            },
+                            {
+                                "src": "assets/images/projects/witness/witness_ui_screenshot_20141008_04.png",
+                                "alt": "witness"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "OpenMakersDay Giffoni 2013",
+                    "description": "Organization of a public event dedicated to Free Software, OpenSource philosophy and Making, at the Antica Ramiera in Giffoni Valle Piana",
+                    "tags": [
+                        "linux",
+                        "open-source",
+                        "making",
+                        "electronics",
+                        "3d-print"
+                    ],
+                    "timespan": "2013",
+                    "company": "OpenMakersItaly",
+                    "customer": "public event",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_00.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_01.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_02.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_03.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_04.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_05.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_06.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_07.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_08.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_09.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_10.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_11.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_12.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_13.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_14.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_15.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_16.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_17.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_18.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_19.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_20.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_21.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_22.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_23.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_24.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_25.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_26.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_27.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_28.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_29.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_30.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            },
+                            {
+                                "src": "assets/images/projects/openmakersdaygiffoni2013/OpenMakersDayGiffoni2013_31.jpg",
+                                "alt": "openmakersdaygiffoni2013"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Arduino Workshop",
+                    "description": "Participation in the Flussi.2013 festival (Avellino) with an introductory workshop on Arduino programming",
+                    "tags": [
+                        "education",
+                        "arduino",
+                        "microcontroller",
+                        "electronics"
+                    ],
+                    "timespan": "2013",
+                    "company": "OpenMakersItaly",
+                    "customer": "education",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/works-arduino_workshop_2013_01.jpg",
+                                "alt": "arduino_workshop_2013"
+                            },
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/works-arduino_workshop_2013_02.jpg",
+                                "alt": "arduino_workshop_2013"
+                            },
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/works-arduino_workshop_2013_03.jpg",
+                                "alt": "arduino_workshop_2013"
+                            },
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/DSCN1077.jpg",
+                                "alt": "arduino_workshop_2013"
+                            },
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/IMG_1224.jpg",
+                                "alt": "arduino_workshop_2013"
+                            },
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/IMG_1240.jpg",
+                                "alt": "arduino_workshop_2013"
+                            },
+                            {
+                                "src": "assets/images/projects/arduino_workshop_2013/IMG_1241.jpg",
+                                "alt": "arduino_workshop_2013"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "GiffoniHackLab.2013",
+                    "description": "Organization of a hacking workshop and introduction to Arduino programming as part of the GiffoniFilmFestival 2013",
+                    "tags": [
+                        "education",
+                        "arduino",
+                        "electronics",
+                        "hacking",
+                        "GiffoniFilmFestival"
+                    ],
+                    "timespan": "2013",
+                    "company": "Startup Solutions",
+                    "customer": "education",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0961.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0963.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0964.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0965.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0966.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0967.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0968.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0973.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0984.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0988.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0990.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0994.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN0998.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN1000.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN1002.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN1064.jpg",
+                                "alt": "giffonihacklab2013"
+                            },
+                            {
+                                "src": "assets/images/projects/giffonihacklab2013/DSCN1065.jpg",
+                                "alt": "giffonihacklab2013"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Librerie firmware per LCD grafici",
+                    "description": "Custom firmware libraries for managing LCD graphic displays",
+                    "tags": [
+                        "c",
+                        "microcontroller",
+                        "display",
+                        "electronics"
+                    ],
+                    "timespan": "2013",
+                    "company": "Startup Solutions",
+                    "customer": "Takius",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/works-lcd_libraries_01.jpg",
+                                "alt": "Graphic LCD Libraries"
+                            },
+                            {
+                                "src": "assets/images/projects/works-lcd_libraries_02.jpg",
+                                "alt": "Graphic LCD Libraries"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Firmware per validatore titoli di viaggio",
+                    "description": "Firmware development for a travel ticket validator system, railway sector.",
+                    "tags": [
+                        "c",
+                        "microcontroller",
+                        "stepper motors",
+                        "electronics"
+                    ],
+                    "timespan": "2013",
+                    "company": "Startup Solutions",
+                    "customer": "TPR Service (Caserta)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/validatore-tprservice01.jpg",
+                                "alt": "validatore_tprservice"
+                            },
+                            {
+                                "src": "assets/images/projects/validatore-tprservice02.jpg",
+                                "alt": "validatore_tprservice"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "WebRadioStation Android App",
+                    "description": "Custom android application for web radio streaming",
+                    "tags": [
+                        "android",
+                        "java",
+                        "shoutcast"
+                    ],
+                    "timespan": "2013",
+                    "company": "Startup Solutions",
+                    "customer": "WebRadioStation (Napoli)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/webradiostation/android-webradiostation_01.png",
+                                "alt": "webradiostation"
+                            },
+                            {
+                                "src": "assets/images/projects/webradiostation/android-webradiostation_02.png",
+                                "alt": "webradiostation"
+                            },
+                            {
+                                "src": "assets/images/projects/webradiostation/android-webradiostation_03.png",
+                                "alt": "webradiostation"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "PlayBox / FunnyPeople",
+                    "description": "Interactive multimedia installation in augmented reality",
+                    "tags": [
+                        "visual art",
+                        "kinect",
+                        "linux",
+                        "augmented reality",
+                        "java"
+                    ],
+                    "timespan": "2012",
+                    "company": "Startup Solutions",
+                    "customer": "visual art",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/funnypeople/DSCN0359.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/DSC_0410.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/DSC_0412.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/DSC_0485.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/DSC_0516.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/DSC_0522.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/shot4.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/shot5.jpg",
+                                "alt": "funnypeople"
+                            },
+                            {
+                                "src": "assets/images/projects/funnypeople/shot8.jpg",
+                                "alt": "funnypeople"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Hypnodancers",
+                    "description": "Participation in the Flussi.2012 festival (Avellino) with an interactive multimedia installation",
+                    "tags": [
+                        "visual art",
+                        "kinect",
+                        "linux",
+                        "processing"
+                    ],
+                    "timespan": "2012",
+                    "company": "Startup Solutions",
+                    "customer": "visual art",
+                    "media": {
+                        "header_text": "Immagini:",
+                        "images": [
+                            {
+                                "src": "assets/images/projects/hypnodancers/hypnodancers_01.jpg",
+                                "alt": "hypnodancers"
+                            },
+                            {
+                                "src": "assets/images/projects/hypnodancers/hypnodancers_02.jpg",
+                                "alt": "hypnodancers"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Giffoni Experience App 2012",
+                    "description": "Implementation of the official Android App of the Giffoni Film Festival, 2012 edition",
+                    "tags": [
+                        "android",
+                        "java",
+                        "javascript",
+                        "html5",
+                        "phonegap"
+                    ],
+                    "timespan": "2012",
+                    "company": "Startup Solutions",
+                    "customer": "Giffoni Film Festival",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-logo_on_banner.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot01c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot02c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot03c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot04c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot05c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot06c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot07c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot08c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot09c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot10c.jpg",
+                                "alt": "giffoniexperience2012"
+                            },
+                            {
+                                "src": "assets/images/projects/giffoniexperience2012/giffoniexperience2012-shot11c.jpg",
+                                "alt": "giffoniexperience2012"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Interfacciamento a sistema di controllo treno Frecciarossa",
+                    "description": "Serial communication protocol sniffing, and command reproduction for \"snake walk\" testing",
+                    "tags": [
+                        "linux",
+                        "serial",
+                        "python"
+                    ],
+                    "timespan": "2011",
+                    "company": "Startup Solutions",
+                    "customer": "system integrations",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/trenitalia/IMG_20110922_114931.jpg",
+                                "alt": "trenitalia"
+                            },
+                            {
+                                "src": "assets/images/projects/trenitalia/IMG_20110922_115209.jpg",
+                                "alt": "trenitalia"
+                            },
+                            {
+                                "src": "assets/images/projects/trenitalia/IMG_20110922_115249.jpg",
+                                "alt": "trenitalia"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Flussi.2011",
+                    "description": "Participation in the Flussi.2011 festival (Avellino) with a workshop on Natural Interaction and an interactive multimedia installation",
+                    "tags": [
+                        "visual art",
+                        "kinect",
+                        "linux",
+                        "processing"
+                    ],
+                    "timespan": "2011",
+                    "company": "",
+                    "customer": "education / visual art",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/flussi2011/flussi2011_01.jpg",
+                                "alt": "flussi2011"
+                            },
+                            {
+                                "src": "assets/images/projects/flussi2011/flussi2011_02.jpg",
+                                "alt": "flussi2011"
+                            },
+                            {
+                                "src": "assets/images/projects/flussi2011/flussi2011_03.jpg",
+                                "alt": "flussi2011"
+                            },
+                            {
+                                "src": "assets/images/projects/flussi2011/flussi2011_04.jpg",
+                                "alt": "flussi2011"
+                            },
+                            {
+                                "src": "assets/images/projects/flussi2011/flussi2011_05.jpg",
+                                "alt": "flussi2011"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "LinuxDay 2010",
+                    "description": "Participation in the LinuxDay 2010 event at the University of Salerno with a talk on KDE Plasma and interfacing of a MindFlex EEG sensor in a GNU/Linux environment",
+                    "tags": [
+                        "linux",
+                        "C++"
+                    ],
+                    "timespan": "2010",
+                    "company": "Startup Solutions",
+                    "customer": "public event",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/linuxday2010/202.jpg",
+                                "alt": "linuxday2010"
+                            },
+                            {
+                                "src": "assets/images/projects/linuxday2010/204.jpg",
+                                "alt": "linuxday2010"
+                            },
+                            {
+                                "src": "assets/images/projects/linuxday2010/205.jpg",
+                                "alt": "linuxday2010"
+                            },
+                            {
+                                "src": "assets/images/projects/linuxday2010/207.jpg",
+                                "alt": "linuxday2010"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "PlayOn Multimedia Entertainment System",
+                    "description": "GNU/Linux based entertainment system for coin-op arcade gaming",
+                    "tags": [
+                        "GNU/Linux",
+                        "embedded",
+                        "C++",
+                        "Lua",
+                        "Game Design",
+                        "Game Development"
+                    ],
+                    "timespan": "2009",
+                    "company": "Emthesis Development",
+                    "customer": "Emthesis Development / GennaGroup (Salerno)",
+                    "media": {
+                        "images": [
+                            {
+                                "src": "assets/images/projects/playon/PlayOn-brochure-dec2009.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/PlayOn-brochure-dec2009-2.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/playon.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/playon_tgm_talentzone-maggio2009_web.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/TunnelRacer-Logo.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/TunnelRacer-s01.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/TunnelRacer-s02.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/TunnelRacer-s03.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/cimg0085.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/cimg9838.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-Logo.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-level1.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-level2.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-level3.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-level4.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-level5.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/LuckyTurkey-level6.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/cimg9017.jpg",
+                                "alt": "playon"
+                            },
+                            {
+                                "src": "assets/images/projects/playon/cimg9027.jpg",
+                                "alt": "playon"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "navbar": {
+        "items": [
+            {
+                "caption": "Descrizione",
+                "href": "#description",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Materiale e strumenti",
+                "href": "#materials",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Preparazione",
+                "href": "#preparation",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Assemblaggio",
+                "href": "#assembly",
+                "class": "nav-link"
+            },
+            {
+                "caption": "Utilizzo",
+                "href": "#usage",
+                "class": "nav-link"
+            }
+        ]
+    },
+    "sections": {
+        "description": {
+            "header": "Descrizione dello strumento",
+            "images": [
+                {
+                    "src": "assets/images/schematic.jpg",
+                    "text": "Questo strumento si basa sulla riproduzione del circuito proposto sulla rivista Nuova Elettronica (numero 212, kit LX1518) ma in versione SMD con componenti aggiornati. Permette di misurare la resistenza equivalente in serie dei condensatori elettrolitici per testare il loro stato di degradamento nel tempo."
+                }
+            ]
+        },
+        "materials": {
+            "paragraphs": [
+                {
+                    "header": "Materiale necessario*",
+                    "list": [
+                        "un multimetro economico <b>modello YX-1000A</b> (reperibile nei negozi cinesi);",
+                        "box realizzato in stampa 3D<b>**</b>;",
+                        "viti per chiusura box;",
+                        "elettronica: circuito preassemblato, interruttore, potenziometro, leds, snap per pila 9V;",
+                        "pila da 9V;"
+                    ]
+                },
+                {
+                    "header": "Strumenti",
+                    "list": [
+                        "saldatore per piccoli circuiti;",
+                        "attrezzi vari: pinzette, spelafili, cacciavite;",
+                        "seghetto manuale;"
+                    ]
+                }
+            ],
+            "notes": [
+                "(*) è possibile acquistare il kit in varie versioni:<br><ul><li><b>solo elettronica ESR Meter:</b> vi verrà fornito unicamente il circuito stampato e i componenti accessori (leds, potenziometro, interruttore, morsettiere, snap per pila 9V), <b>escluso il multimetro YX-100A</b>. Utile qualora vogliate usare un vostro box, o stamparvi da soli il box con la vostra stampante 3D;</li><li><b>elettronica + box (da assemblare):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, morsettiere, snap per pila 9V) e il box realizzato in stampa 3D;</li><li><b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D;</li></ul>",
+                "<b><i>NOTA: in ogni caso, la pila 9V è esclusa</i></b>",
+                "(**) i files per la stampa 3D del box sono liberamente scaricabili da qui: TODO: ADD LINKS"
+            ]
+        },
+        "preparation": {
+            "header": "Preparazione",
+            "steps": [
+                {
+                    "header": "prelievo delle parti necessarie dal tester",
+                    "images": [
+                        {
+                            "src": "assets/images/preparation_01.jpg",
+                            "text": "aprire il tester rimuovendo la vite posteriore"
+                        },
+                        {
+                            "src": "assets/images/preparation_02.jpg",
+                            "text": "staccare i due fili dello strumento dal circuito"
+                        },
+                        {
+                            "src": "assets/images/preparation_03.jpg",
+                            "text": "estrarre il circuito"
+                        },
+                        {
+                            "src": "assets/images/preparation_04.jpg",
+                            "text": "tagliare, con un seghetto, la parte superiore che contiene lo strumento, facendo attenzione ai fili"
+                        },
+                        {
+                            "src": "assets/images/preparation_05.jpg",
+                            "text": "particolare del taglio"
+                        },
+                        {
+                            "src": "assets/images/preparation_06.jpg",
+                            "text": "rimuovere le parti in plastica del vecchio alloggiamento batteria dal retro dello strumento"
+                        },
+                        {
+                            "src": "assets/images/preparation_07.jpg",
+                            "text": "segnare una striscia di 9mm nella parte inferiore del circuito"
+                        },
+                        {
+                            "src": "assets/images/preparation_08.jpg",
+                            "text": "tagliare, con un seghetto, la striscia inferiore del circuito"
+                        },
+                        {
+                            "src": "assets/images/preparation_09.jpg",
+                            "text": "particolare del circuito dopo il taglio"
+                        },
+                        {
+                            "src": "assets/images/preparation_10.jpg",
+                            "text": "dissaldare i due diodi, e saldare due fili sulle boccole dei puntali"
+                        }
+                    ]
+                }
+            ]
+        },
+        "assembly": {
+            "header": "Assemblaggio",
+            "steps": [
+                {
+                    "header": "1. montaggio delle boccole dei puntali",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_01.jpg",
+                            "text": "inserire la striscia di circuito stampato con le boccole nel box, spingendo le boccole nei fori fino ad arrivare a battuta con la plastica, quindi fissare l'angolare di blocco con due viti, facendo fuoriuscire i fili dalle due asole"
+                        }
+                    ]
+                },
+                {
+                    "header": "2. montaggio dei componenti frontali",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_02.jpg",
+                            "text": "inserire l'interruttore di accensione e i due led. NOTA: uno dei led è provvisto di resistore, e va inserito nella boccola contrassegnata dalla scritta 'on'. <i>Opzionale: qualora i led non dovessero risultare bloccati nel loro alloggiamento, è possibile fissarli con una goccia di colla</i>"
+                        },
+                        {
+                            "src": "assets/images/assembly_03.jpg",
+                            "text": "saldare tre fili sui pin del potenziometro, fissarlo al frontale del box, e aggiungere la manopola"
+                        },
+                        {
+                            "src": "assets/images/assembly_04.jpg",
+                            "text": "aggiungere lo snap per la pila da 9V, tagliando il filo rosso in corrispondenza dell'interruttore, e saldarlo sui terminali"
+                        }
+                    ]
+                },
+                {
+                    "header": "3. collegamenti al circuito",
+                    "images": [
+                        {
+                            "src": "assets/images/pcb_connections.png",
+                            "text": "dettaglio dei collegamenti"
+                        },
+                        {
+                            "src": "assets/images/assembly_03.jpg",
+                            "text": "saldare tre fili sui pin del potenziometro, fissarlo al frontale del box, e aggiungere la manopola"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
