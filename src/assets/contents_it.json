@@ -45,7 +45,7 @@
                     "list": [
                         "un multimetro economico <b>modello YX-1000A</b> (reperibile nei negozi cinesi);",
                         "box realizzato in stampa 3D<b>**</b>;",
-                        "viti per chiusura box;",
+                        "viti per chiusura box (10 viti autofilettanti misura M3x6);",
                         "elettronica: circuito preassemblato, interruttore, potenziometro, leds, snap per pila 9V;",
                         "pila da 9V;"
                     ]
@@ -152,8 +152,33 @@
                             "text": "dettaglio dei collegamenti"
                         },
                         {
-                            "src": "assets/images/assembly_03.jpg",
-                            "text": "saldare tre fili sui pin del potenziometro, fissarlo al frontale del box, e aggiungere la manopola"
+                            "src": "assets/images/assembly_05.jpg",
+                            "text": "saldare i fili del potenziometro al circuito sulle piazzole R21, seguendo lo schema in figura"
+                        },
+                        {
+                            "src": "assets/images/assembly_06.jpg",
+                            "text": "saldare i fili del led \"short\" sulle piazzole LED1 (rispettando la polarità) e i fili delle boccole dei puntali su CN2"
+                        },
+                        {
+                            "src": "assets/images/assembly_07.jpg",
+                            "text": "saldare insieme i due fili rossi e i due fili neri provenienti dalla batteria e dal led \"power\" sulle piazzole CN1, rispettando la polarità indicata"
+                        },
+                        {
+                            "src": "assets/images/assembly_08.jpg",
+                            "text": "saldare quindi i due fili provenienti dal milliamperometro su CN3"
+                        }
+                    ]
+                },
+                {
+                    "header": "4. steps finali",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_09.jpg",
+                            "text": "fissare il circuito al box mediante 3 viti"
+                        },
+                        {
+                            "src": "assets/images/assembly_10.jpg",
+                            "text": "chiudere il coperchio posteriore con le quattro viti negli angoli, inserire la pila e chiudere il vano della pila con un'altra vite"
                         }
                     ]
                 }

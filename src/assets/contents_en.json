@@ -30,37 +30,37 @@
     },
     "sections": {
         "description": {
-            "header": "Descrizione dello strumento",
+            "header": "Tool description",
             "images": [
                 {
                     "src": "assets/images/schematic.jpg",
-                    "text": "Questo strumento si basa sulla riproduzione del circuito proposto sulla rivista Nuova Elettronica (numero 212, kit LX1518) ma in versione SMD con componenti aggiornati. Permette di misurare la resistenza equivalente in serie dei condensatori elettrolitici per testare il loro stato di degradamento nel tempo."
+                    "text": "This tool is based on the reproduction in SMD with modern components of a circuit published on \"Nuova Elettronica\" magazine. Allows to measure the ESR (Equivalent Serie Resistance) on electrolytic capacitors, to test their degradation state over time."
                 }
             ]
         },
         "materials": {
             "paragraphs": [
                 {
-                    "header": "Materiale necessario*",
+                    "header": "Needed materials*",
                     "list": [
-                        "un multimetro economico <b>modello YX-1000A</b> (reperibile nei negozi cinesi);",
-                        "box realizzato in stampa 3D<b>**</b>;",
-                        "viti per chiusura box;",
-                        "elettronica: circuito preassemblato, interruttore, potenziometro, leds, snap per pila 9V;",
-                        "pila da 9V;"
+                        "a cheap multimeter, <b>model YX-1000A</b> (sold in chinese/dollar stores);",
+                        "the 3D printed box<b>**</b>;",
+                        "screws to close box (10 self-tapping screws, M3x6);",
+                        "electronics: preassembled circuit, switch, potentiometer, leds, 9V battery snap;",
+                        "9V battery;"
                     ]
                 },
                 {
-                    "header": "Strumenti",
+                    "header": "Tools",
                     "list": [
-                        "saldatore per piccoli circuiti;",
-                        "attrezzi vari: pinzette, spelafili, cacciavite;",
-                        "seghetto manuale;"
+                        "soldering iron for small circuits;",
+                        "various tools: tweezers, wire strippers, screwdriver;",
+                        "hand saw;"
                     ]
                 }
             ],
             "notes": [
-                "(*) è possibile acquistare il kit in varie versioni:<br><ul><li><b>solo elettronica ESR Meter:</b> vi verrà fornito unicamente il circuito stampato e i componenti accessori (leds, potenziometro, interruttore, morsettiere, snap per pila 9V), <b>escluso il multimetro YX-100A</b>. Utile qualora vogliate usare un vostro box, o stamparvi da soli il box con la vostra stampante 3D;</li><li><b>elettronica + box (da assemblare):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, morsettiere, snap per pila 9V) e il box realizzato in stampa 3D;</li><li><b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D;</li></ul>",
+                "(*) you can purchase the kit in various versions:<br><ul><li><b>ESR Meter electronics only:</b> you will only be provided with the printed circuit board and accessory components (LEDs, potentiometer, switch, terminal blocks, 9V battery snap), <b>excluding the YX-100A multimeter</b>. Useful if you want to use your own box, or print the box yourself with your 3D printer;</li><li><b>electronics + box (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, terminal blocks, snap for 9V battery) and the 3D printed box;</li><li><b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D;</li></ul>",
                 "<b><i>NOTA: in ogni caso, la pila 9V è esclusa</i></b>",
                 "(**) i files per la stampa 3D del box sono liberamente scaricabili da qui: TODO: ADD LINKS"
             ]
@@ -152,8 +152,33 @@
                             "text": "dettaglio dei collegamenti"
                         },
                         {
-                            "src": "assets/images/assembly_03.jpg",
-                            "text": "saldare tre fili sui pin del potenziometro, fissarlo al frontale del box, e aggiungere la manopola"
+                            "src": "assets/images/assembly_05.jpg",
+                            "text": "saldare i fili del potenziometro al circuito sulle piazzole R21, seguendo lo schema in figura"
+                        },
+                        {
+                            "src": "assets/images/assembly_06.jpg",
+                            "text": "saldare i fili del led \"short\" sulle piazzole LED1 (rispettando la polarità) e i fili delle boccole dei puntali su CN2"
+                        },
+                        {
+                            "src": "assets/images/assembly_07.jpg",
+                            "text": "saldare insieme i due fili rossi e i due fili neri provenienti dalla batteria e dal led \"power\" sulle piazzole CN1, rispettando la polarità indicata"
+                        },
+                        {
+                            "src": "assets/images/assembly_08.jpg",
+                            "text": "saldare quindi i due fili provenienti dal milliamperometro su CN3"
+                        }
+                    ]
+                },
+                {
+                    "header": "4. steps finali",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_09.jpg",
+                            "text": "fissare il circuito al box mediante 3 viti"
+                        },
+                        {
+                            "src": "assets/images/assembly_10.jpg",
+                            "text": "chiudere il coperchio posteriore con le quattro viti negli angoli, inserire la pila e chiudere il vano della pila con un'altra vite"
                         }
                     ]
                 }
