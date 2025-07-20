@@ -60,125 +60,125 @@
                 }
             ],
             "notes": [
-                "(*) you can purchase the kit in various versions:<br><ul><li><b>ESR Meter electronics only:</b> you will only be provided with the printed circuit board and accessory components (LEDs, potentiometer, switch, terminal blocks, 9V battery snap), <b>excluding the YX-100A multimeter</b>. Useful if you want to use your own box, or print the box yourself with your 3D printer;</li><li><b>electronics + box (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, terminal blocks, snap for 9V battery) and the 3D printed box;</li><li><b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D;</li></ul>",
-                "<b><i>NOTA: in ogni caso, la pila 9V è esclusa</i></b>",
-                "(**) i files per la stampa 3D del box sono liberamente scaricabili da qui: TODO: ADD LINKS"
+                "(*) you can purchase the kit in various versions:<br><ul><li><b>ESR Meter electronics only:</b> you will only be provided with the printed circuit board and accessory components (LEDs, potentiometer, switch, terminal blocks, 9V battery snap), <b>excluding the YX-100A multimeter</b>. Useful if you want to use your own box, or print the box yourself with your 3D printer;</li><li><b>electronics + box (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, terminal blocks, snap for 9V battery) and the 3D printed box;</li><li><b>complete tool (pre-assembled):</b> ready-to-use, already pre-assembled in the 3D printed box;</li></ul>",
+                "<b><i>NOTE: In any case, the 9V battery is excluded</i></b>",
+                "(**) model files for 3D printing of box are freely downloadable from here: TODO: ADD LINKS"
             ]
         },
         "preparation": {
-            "header": "Preparazione",
+            "header": "Preparation",
             "steps": [
                 {
-                    "header": "prelievo delle parti necessarie dal tester",
+                    "header": "taking all necessary parts from multimeter",
                     "images": [
                         {
                             "src": "assets/images/preparation_01.jpg",
-                            "text": "aprire il tester rimuovendo la vite posteriore"
+                            "text": "open the multimeter removing the screw on the back"
                         },
                         {
                             "src": "assets/images/preparation_02.jpg",
-                            "text": "staccare i due fili dello strumento dal circuito"
+                            "text": "cut both milliammeter wires from the circuit"
                         },
                         {
                             "src": "assets/images/preparation_03.jpg",
-                            "text": "estrarre il circuito"
+                            "text": "take out the circuit"
                         },
                         {
                             "src": "assets/images/preparation_04.jpg",
-                            "text": "tagliare, con un seghetto, la parte superiore che contiene lo strumento, facendo attenzione ai fili"
+                            "text": "cut the upper part containing the instrument with an hand saw (pay attention to the wires)"
                         },
                         {
                             "src": "assets/images/preparation_05.jpg",
-                            "text": "particolare del taglio"
+                            "text": "cutting detail"
                         },
                         {
                             "src": "assets/images/preparation_06.jpg",
-                            "text": "rimuovere le parti in plastica del vecchio alloggiamento batteria dal retro dello strumento"
+                            "text": "remove the plastic parts of the old battery case from the back of the instrument"
                         },
                         {
                             "src": "assets/images/preparation_07.jpg",
-                            "text": "segnare una striscia di 9mm nella parte inferiore del circuito"
+                            "text": "mark a 9mm strip at the bottom of the circuit"
                         },
                         {
                             "src": "assets/images/preparation_08.jpg",
-                            "text": "tagliare, con un seghetto, la striscia inferiore del circuito"
+                            "text": "cut the bottom strip of the circuit board with the hand saw"
                         },
                         {
                             "src": "assets/images/preparation_09.jpg",
-                            "text": "particolare del circuito dopo il taglio"
+                            "text": "detail of the circuit after cutting"
                         },
                         {
                             "src": "assets/images/preparation_10.jpg",
-                            "text": "dissaldare i due diodi, e saldare due fili sulle boccole dei puntali"
+                            "text": "unsolder the two diodes, and solder two wires onto the test lead bushings"
                         }
                     ]
                 }
             ]
         },
         "assembly": {
-            "header": "Assemblaggio",
+            "header": "Assembly",
             "steps": [
                 {
-                    "header": "1. montaggio delle boccole dei puntali",
+                    "header": "1. assembly of the test lead bushings",
                     "images": [
                         {
                             "src": "assets/images/assembly_01.jpg",
-                            "text": "inserire la striscia di circuito stampato con le boccole nel box, spingendo le boccole nei fori fino ad arrivare a battuta con la plastica, quindi fissare l'angolare di blocco con due viti, facendo fuoriuscire i fili dalle due asole"
+                            "text": "insert the previously cutted PCB strip with the bushings into the box, pushing the bushings into the holes until they touch the plastic, then secure the locking bracket with two screws, letting the wires come out of the two slots"
                         }
                     ]
                 },
                 {
-                    "header": "2. montaggio dei componenti frontali",
+                    "header": "2. assembly of the front components",
                     "images": [
                         {
                             "src": "assets/images/assembly_02.jpg",
-                            "text": "inserire l'interruttore di accensione e i due led. NOTA: uno dei led è provvisto di resistore, e va inserito nella boccola contrassegnata dalla scritta 'on'. <i>Opzionale: qualora i led non dovessero risultare bloccati nel loro alloggiamento, è possibile fissarli con una goccia di colla</i>"
+                            "text": "insert the power switch and the two LEDs. NOTE: One of the LEDs has a resistor and must be inserted into the socket marked with 'on'. <i>Optional: If the LEDs are not locked into place, you can secure them with a drop of glue.</i>"
                         },
                         {
                             "src": "assets/images/assembly_03.jpg",
-                            "text": "saldare tre fili sui pin del potenziometro, fissarlo al frontale del box, e aggiungere la manopola"
+                            "text": "solder three wires onto the potentiometer pins, attach it to the front of the box, and add the knob"
                         },
                         {
                             "src": "assets/images/assembly_04.jpg",
-                            "text": "aggiungere lo snap per la pila da 9V, tagliando il filo rosso in corrispondenza dell'interruttore, e saldarlo sui terminali"
+                            "text": "add the snap for the 9V battery, cutting the red wire at the switch, and soldering it to its terminals"
                         }
                     ]
                 },
                 {
-                    "header": "3. collegamenti al circuito",
+                    "header": "3. circuit connections",
                     "images": [
                         {
                             "src": "assets/images/pcb_connections.png",
-                            "text": "dettaglio dei collegamenti"
+                            "text": "connections details"
                         },
                         {
                             "src": "assets/images/assembly_05.jpg",
-                            "text": "saldare i fili del potenziometro al circuito sulle piazzole R21, seguendo lo schema in figura"
+                            "text": "solder the potentiometer wires to the circuit on the R21 pads, following the diagram in the figure"
                         },
                         {
                             "src": "assets/images/assembly_06.jpg",
-                            "text": "saldare i fili del led \"short\" sulle piazzole LED1 (rispettando la polarità) e i fili delle boccole dei puntali su CN2"
+                            "text": "solder the \"short\" LED wires to the LED1 pads (respecting the polarity) and the wires of test lead terminals to CN2"
                         },
                         {
                             "src": "assets/images/assembly_07.jpg",
-                            "text": "saldare insieme i due fili rossi e i due fili neri provenienti dalla batteria e dal led \"power\" sulle piazzole CN1, rispettando la polarità indicata"
+                            "text": "solder together the two red wires and the two black wires coming from the battery and the \"power\" LED on the CN1 pads, respecting the indicated polarity"
                         },
                         {
                             "src": "assets/images/assembly_08.jpg",
-                            "text": "saldare quindi i due fili provenienti dal milliamperometro su CN3"
+                            "text": "then solder the two wires coming from the milliammeter on CN3"
                         }
                     ]
                 },
                 {
-                    "header": "4. steps finali",
+                    "header": "4. final steps",
                     "images": [
                         {
                             "src": "assets/images/assembly_09.jpg",
-                            "text": "fissare il circuito al box mediante 3 viti"
+                            "text": "fix the circuit to the box using 3 screws"
                         },
                         {
                             "src": "assets/images/assembly_10.jpg",
-                            "text": "chiudere il coperchio posteriore con le quattro viti negli angoli, inserire la pila e chiudere il vano della pila con un'altra vite"
+                            "text": "close the back cover with the four screws in the corners, insert the battery and close the battery compartment with another screw"
                         }
                     ]
                 }
