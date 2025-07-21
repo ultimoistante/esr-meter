@@ -2,7 +2,8 @@
 	let { data } = $props();
 </script>
 
-<section class="mt-3">
+<section class="" id="cover">
+	<!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="cover"> -->
 	<img src="assets/images/cover.jpg" width="100%" class="object-fit-cover" alt="" />
 </section>
 
