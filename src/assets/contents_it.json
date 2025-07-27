@@ -70,7 +70,7 @@
                     "footer": "<b><i>In ogni caso, la pila 9V è esclusa</i></b>"
                 },
                 {
-                    "subheader": "<br><b>(**) i files per la stampa 3D del box sono liberamente scaricabili da qui:</b><br><button type=\"button\" class=\"btn btn-primary\">Scarica files STL</button>"
+                    "subheader": "<br><b>(**) i files per la stampa 3D del box sono liberamente scaricabili da qui:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"/assets/files/esr_meter-box-model-20250720.zip\">Scarica files STL</a>"
                 }
             ],
             "notes": [
