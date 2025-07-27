@@ -6,6 +6,7 @@
 	import MaterialsPage from "./lib/sections/Materials.svelte";
 	import PreparationPage from "./lib/sections/Preparation.svelte";
 	import AssemblyPage from "./lib/sections/Assembly.svelte";
+	import UsagePage from "./lib/sections/Usage.svelte";
 	// import WorkExperienceSection from "./lib/sections/WorkExperience.svelte";
 	// import EducationSection from "./lib/sections/Education.svelte";
 	// import SkillsSection from "./lib/sections/Skills.svelte";
@@ -25,10 +26,6 @@
 		<hr class="m-0" />
 		<AssemblyPage data={$localizedContent("sections.assembly", {})} />
 		<hr class="m-0" />
-		<!-- <ProjectsSection data={$localizedContent("sections.projects", {})} />
-		<hr class="m-0" />
-		<WorkExperienceSection data={$localizedContent("sections.work_experience", {})} />
-		<hr class="m-0" />
-		<EducationSection data={$localizedContent("sections.education", {})} /> -->
+		<UsagePage data={$localizedContent("sections.usage", {})} />
 	</div>
 </main>

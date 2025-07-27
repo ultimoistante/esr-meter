@@ -81,6 +81,25 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.badge-bg-1 {
+  background-color: #55b3a6 !important;
+}
+
+.badge-bg-2 {
+  background-color: #51c983 !important;
+}
+
+.badge-bg-3 {
+  background-color: #afc951 !important;
+}
+
+.badge-bg-4 {
+  background-color: #af972c !important;
+}
+
+.badge-bg-5 {
+  background-color: #df9643 !important;
+}
 
 header.masthead {
   margin-bottom: 50px;

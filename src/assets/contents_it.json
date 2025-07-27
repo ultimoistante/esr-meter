@@ -57,12 +57,26 @@
                         "attrezzi vari: pinzette, spelafili, cacciavite;",
                         "seghetto manuale;"
                     ]
+                },
+                {
+                    "subheader": "<br><h3>Note</h3><b>(*) è possibile acquistare il kit in varie versioni:</b>",
+                    "list": [
+                        "<span class=\"badge rounded-pill badge-bg-1\">opzione A</span>&nbsp;<b>solo elettronica:</b> vi verrà fornito unicamente il circuito stampato e i componenti accessori (leds, potenziometro, interruttore, snap per pila 9V), <b>escluso il multimetro YX-1000A</b>. Utile qualora vogliate usare un vostro box, o stamparvi da soli il box con la vostra stampante 3D, e disponete già del multimetro YX-1000A (o un altro milliamperometro);",
+                        "<span class=\"badge rounded-pill badge-bg-2\">opzione B</span>&nbsp;<b>elettronica + multimetro YX-1000A:</b> come sopra, ma con incluso il multimetro YX-1000A;",
+                        "<span class=\"badge rounded-pill badge-bg-3\">opzione C</span>&nbsp;<b>elettronica + box (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V) e il box stampato in 3D <i>(assemblaggio fai-da-te)</i>;",
+                        "<span class=\"badge rounded-pill badge-bg-4\">opzione D</span>&nbsp;<b>elettronica + box + multimetro YX-1000A (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V), il box stampato in 3D, e il multimetro YX-1000A <i>(assemblaggio fai-da-te)</i>;",
+                        "<span class=\"badge rounded-pill badge-bg-5\">opzione E</span>&nbsp;<b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D, con incluso il milliamperometro;"
+                    ],
+                    "footer": "<b><i>In ogni caso, la pila 9V è esclusa</i></b>"
+                },
+                {
+                    "subheader": "<br><b>(**) i files per la stampa 3D del box sono liberamente scaricabili da qui:</b><br><button type=\"button\" class=\"btn btn-primary\">Scarica files STL</button>"
                 }
             ],
             "notes": [
-                "(*) è possibile acquistare il kit in varie versioni:<br><ul><li><b>solo elettronica ESR Meter:</b> vi verrà fornito unicamente il circuito stampato e i componenti accessori (leds, potenziometro, interruttore, morsettiere, snap per pila 9V), <b>escluso il multimetro YX-100A</b>. Utile qualora vogliate usare un vostro box, o stamparvi da soli il box con la vostra stampante 3D;</li><li><b>elettronica + box (da assemblare):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, morsettiere, snap per pila 9V) e il box realizzato in stampa 3D;</li><li><b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D;</li></ul>",
-                "<b><i>NOTA: in ogni caso, la pila 9V è esclusa</i></b>",
-                "(**) i files per la stampa 3D del box sono liberamente scaricabili da qui: TODO: ADD LINKS"
+                "<br><ul><li><b> ESR Meter:</b> </li><li><b>elettronica + box (da assemblare):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V) e il box realizzato in stampa 3D;</li><li><b>strumento completo (preassemblato):</b> </li></ul>",
+                "",
+                ""
             ]
         },
         "preparation": {
@@ -181,8 +195,25 @@
                             "text": "chiudere il coperchio posteriore con le quattro viti negli angoli, inserire la pila e chiudere il vano della pila con un'altra vite"
                         }
                     ]
+                },
+                {
+                    "header": "5. risoluzione problemi",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_11.jpg",
+                            "text": "qualora, cortocircuitando i puntali, dovreste vedere la lancetta muoversi verso sinistra, vi basterà semplicemente invertire il collegamento dei due fili del milliamperometro sul circuito stampato"
+                        },
+                        {
+                            "src": "assets/images/assembly_12.jpg",
+                            "text": "tenendo cortocircuitati i puntali, e ruotando il potenziometro in senso orario, dovreste vedere la lancetta dello strumento spostarsi verso destra. Se la lancetta dovesse spostarsi verso sinistra, vi basterà invertire i collegamenti dei due pin esterni del potenziometro"
+                        }
+                    ]
                 }
             ]
+        },
+        "usage": {
+            "header": "Utilizzo dello strumento",
+            "steps": []
         }
     }
 }

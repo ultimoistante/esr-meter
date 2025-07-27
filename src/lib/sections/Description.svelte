@@ -7,7 +7,7 @@
         <h2 class="mt-4 mb-4">{data.header}</h2>
         {#each data.images as image}
             <div class="">
-                <img src={image.src} alt={image.text} width="100%" />
+                <img src={image.src} alt={image.text} />
                 <p>{@html image.text}</p>
             </div>
         {/each}
