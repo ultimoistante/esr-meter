@@ -35,6 +35,10 @@
                 {
                     "src": "assets/images/schematic.jpg",
                     "text": "This tool is based on the reproduction in SMD with modern components of a circuit published on \"Nuova Elettronica\" magazine. It allows to measure the ESR (Equivalent Serie Resistance) of electrolytic capacitors, to test their degradation state over time.<br>"
+                },
+                {
+                    "src": "assets/images/esr_table.jpg",
+                    "text": "reference table with standard values, measured on worst case (<a target=\"_blank\" href=\"http://www.solidpost.com/doku.php?id=electronic:standard_capacitor_worst-case_electrolytic_esr_table\">external link</a>)"
                 }
             ]
         },

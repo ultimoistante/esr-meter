@@ -35,6 +35,10 @@
                 {
                     "src": "assets/images/schematic.jpg",
                     "text": "Questo strumento si basa sulla riproduzione del circuito proposto sulla rivista Nuova Elettronica (numero 212, kit LX1518) ma in versione SMD con componenti aggiornati. Permette di misurare la resistenza equivalente in serie dei condensatori elettrolitici per testare il loro stato di degradamento nel tempo."
+                },
+                {
+                    "src": "assets/images/esr_table.jpg",
+                    "text": "tabella di riferimento con i valori standard, misurati nel caso peggiore (<a target=\"_blank\" href=\"http://www.solidpost.com/doku.php?id=electronic:standard_capacitor_worst-case_electrolytic_esr_table\">link esterno</a>)"
                 }
             ]
         },
