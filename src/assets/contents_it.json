@@ -72,11 +72,6 @@
                 {
                     "subheader": "<br><b>(**) i files per la stampa 3D del box sono liberamente scaricabili da qui:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"/assets/files/esr_meter-box-model-20250720.zip\">Scarica files STL</a>"
                 }
-            ],
-            "notes": [
-                "<br><ul><li><b> ESR Meter:</b> </li><li><b>elettronica + box (da assemblare):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V) e il box realizzato in stampa 3D;</li><li><b>strumento completo (preassemblato):</b> </li></ul>",
-                "",
-                ""
             ]
         },
         "preparation": {
