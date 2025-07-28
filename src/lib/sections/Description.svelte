@@ -11,10 +11,5 @@
                 <p>{@html image.text}</p>
             </div>
         {/each}
-        <br />
-        <br />
-        {#each data.notes as note}
-            <p>{@html note}</p>
-        {/each}
     </div>
 </section>

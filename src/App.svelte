@@ -7,16 +7,12 @@
 	import PreparationPage from "./lib/sections/Preparation.svelte";
 	import AssemblyPage from "./lib/sections/Assembly.svelte";
 	import UsagePage from "./lib/sections/Usage.svelte";
-	// import WorkExperienceSection from "./lib/sections/WorkExperience.svelte";
-	// import EducationSection from "./lib/sections/Education.svelte";
-	// import SkillsSection from "./lib/sections/Skills.svelte";
-	// import ProjectsSection from "./lib/sections/Projects.svelte";
 </script>
 
 <main>
 	<NavBar items={$localizedContent("navbar.items", [])} />
 	<div class="container-fluid p-0">
-		<CoverPage data={$localizedContent("sections.cover", {})} />
+		<CoverPage />
 		<hr class="m-0" />
 		<DescriptionPage data={$localizedContent("sections.description", {})} />
 		<hr class="m-0" />

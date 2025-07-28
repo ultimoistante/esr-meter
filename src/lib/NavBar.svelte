@@ -1,8 +1,6 @@
 <script>
 	let { items } = $props();
-	//
 	import { currentLocale } from "../i18n.js";
-	//
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
