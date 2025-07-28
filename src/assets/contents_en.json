@@ -34,7 +34,7 @@
             "images": [
                 {
                     "src": "assets/images/schematic.jpg",
-                    "text": "This tool is based on the reproduction in SMD with modern components of a circuit published on \"Nuova Elettronica\" magazine. Allows to measure the ESR (Equivalent Serie Resistance) on electrolytic capacitors, to test their degradation state over time."
+                    "text": "This tool is based on the reproduction in SMD with modern components of a circuit published on \"Nuova Elettronica\" magazine. It allows to measure the ESR (Equivalent Serie Resistance) of electrolytic capacitors, to test their degradation state over time.<br>"
                 }
             ]
         },
@@ -46,7 +46,7 @@
                         "electronics: preassembled circuit, switch, potentiometer, leds, 9V battery snap;",
                         "a cheap multimeter, <b>model YX-1000A</b> (sold in chinese/dollar stores);",
                         "the 3D printed box<b>**</b>;",
-                        "screws to close box (10 self-tapping screws, M3x6);",
+                        "screws to close box (10 self-tapping screws, M2.3x6);",
                         "9V battery;"
                     ]
                 },
@@ -62,10 +62,9 @@
                     "subheader": "<br><h3>Notes</h3><b>(*) you can purchase the kit in various versions:</b>",
                     "list": [
                         "<span class=\"badge rounded-pill badge-bg-1\">option A</span>&nbsp;<b>electronics only:</b> you will only be provided with the printed circuit board and accessory components (LEDs, potentiometer, switch, 9V battery snap), <b>excluding the YX-1000A multimeter</b>. Useful if you want to use your own box, or print the box yourself with your 3D printer, and you already have an YX-1000A multimeter (or another millammeter);",
-                        "<span class=\"badge rounded-pill badge-bg-2\">option B</span>&nbsp;<b>electronics + YX-1000A multimeter:</b> same as above, but also including the YX-1000A multimeter;",
-                        "<span class=\"badge rounded-pill badge-bg-3\">option C</span>&nbsp;<b>electronics + box (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, snap for 9V battery) and the 3D printed box <i>(you need to assemble it by yourself)</i>;",
-                        "<span class=\"badge rounded-pill badge-bg-4\">option D</span>&nbsp;<b>electronics + box + YX-1000A multimeter (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, snap for 9V battery), the 3D printed box, and the YX-1000A multimeter <i>(you need to assemble it by yourself)</i>;",
-                        "<span class=\"badge rounded-pill badge-bg-5\">option E</span>&nbsp;<b>complete tool (pre-assembled):</b> ready-to-use, already pre-assembled tool in the 3D printed box, including the milliammeter;"
+                        "<span class=\"badge rounded-pill badge-bg-2\">option B</span>&nbsp;<b>electronics + box (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, snap for 9V battery) and the 3D printed box <i>(you need to assemble it by yourself)</i>;",
+                        "<span class=\"badge rounded-pill badge-bg-3\">option C</span>&nbsp;<b>electronics + box + YX-1000A multimeter (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, snap for 9V battery), the 3D printed box, and the YX-1000A multimeter <i>(you need to assemble it by yourself)</i>;",
+                        "<span class=\"badge rounded-pill badge-bg-4\">option D</span>&nbsp;<b>complete tool (pre-assembled):</b> ready-to-use, already pre-assembled tool in the 3D printed box, including the milliammeter;"
                     ],
                     "footer": "<b><i>In any case, the 9V battery is excluded</i></b>"
                 },
@@ -207,8 +206,32 @@
             ]
         },
         "usage": {
-            "header": "Usage",
-            "steps": []
+            "header": "How to use",
+            "steps": [
+                {
+                    "header": "1. power on the tool and calibrate",
+                    "images": [
+                        {
+                            "src": "assets/images/usage_01.jpg",
+                            "text": "keeping the probes short-circuited, rotate the potentiometer until the instrument needle reaches 0 (to the right)"
+                        }
+                    ]
+                },
+                {
+                    "header": "2. take the measurement",
+                    "subheader": "connect the test leads to the capacitor's leads. The lower the resistance measured (the needle is fully to the right), the better the capacitor. The photos show a measurement of a visibly damaged capacitor and a new one.<br><b>NOTE: The measurement can also be performed on capacitors soldered to a printed circuit board (it is not necessary to remove them).</b>",
+                    "images": [
+                        {
+                            "src": "assets/images/usage_02.jpg",
+                            "text": "<b>example of measuring a faulty capacitor</b>"
+                        },
+                        {
+                            "src": "assets/images/usage_03.jpg",
+                            "text": "<b>example of measurement of a capacitor in excellent condition</b>"
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

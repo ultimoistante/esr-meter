@@ -6,7 +6,8 @@
     <div class="w-100">
         <h2 class="pt-4 mb-4">{data.header}</h2>
         {#each data.steps as step}
-            <h3>{step.header}</h3>
+            <h3>{@html step.header}</h3>
+            <h5>{@html step.subheader}</h5>
             {#each step.images as image}
                 <div class="pt-4 mb-4">
                     <img src={image.src} alt={image.text} width="100%" />

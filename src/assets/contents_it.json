@@ -43,10 +43,10 @@
                 {
                     "header": "Materiale necessario*",
                     "list": [
+                        "elettronica: circuito preassemblato, interruttore, potenziometro, leds, snap per pila 9V;",
                         "un multimetro economico <b>modello YX-1000A</b> (reperibile nei negozi cinesi);",
                         "box realizzato in stampa 3D<b>**</b>;",
-                        "viti per chiusura box (10 viti autofilettanti misura M3x6);",
-                        "elettronica: circuito preassemblato, interruttore, potenziometro, leds, snap per pila 9V;",
+                        "viti per chiusura box (10 viti autofilettanti misura M2.3x6);",
                         "pila da 9V;"
                     ]
                 },
@@ -62,10 +62,9 @@
                     "subheader": "<br><h3>Note</h3><b>(*) è possibile acquistare il kit in varie versioni:</b>",
                     "list": [
                         "<span class=\"badge rounded-pill badge-bg-1\">opzione A</span>&nbsp;<b>solo elettronica:</b> vi verrà fornito unicamente il circuito stampato e i componenti accessori (leds, potenziometro, interruttore, snap per pila 9V), <b>escluso il multimetro YX-1000A</b>. Utile qualora vogliate usare un vostro box, o stamparvi da soli il box con la vostra stampante 3D, e disponete già del multimetro YX-1000A (o un altro milliamperometro);",
-                        "<span class=\"badge rounded-pill badge-bg-2\">opzione B</span>&nbsp;<b>elettronica + multimetro YX-1000A:</b> come sopra, ma con incluso il multimetro YX-1000A;",
-                        "<span class=\"badge rounded-pill badge-bg-3\">opzione C</span>&nbsp;<b>elettronica + box (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V) e il box stampato in 3D <i>(assemblaggio fai-da-te)</i>;",
-                        "<span class=\"badge rounded-pill badge-bg-4\">opzione D</span>&nbsp;<b>elettronica + box + multimetro YX-1000A (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V), il box stampato in 3D, e il multimetro YX-1000A <i>(assemblaggio fai-da-te)</i>;",
-                        "<span class=\"badge rounded-pill badge-bg-5\">opzione E</span>&nbsp;<b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D, con incluso il milliamperometro;"
+                        "<span class=\"badge rounded-pill badge-bg-2\">opzione B</span>&nbsp;<b>elettronica + box (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V) e il box stampato in 3D <i>(assemblaggio fai-da-te)</i>;",
+                        "<span class=\"badge rounded-pill badge-bg-3\">opzione C</span>&nbsp;<b>elettronica + box + multimetro YX-1000A (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V), il box stampato in 3D, e il multimetro YX-1000A <i>(assemblaggio fai-da-te)</i>;",
+                        "<span class=\"badge rounded-pill badge-bg-4\">opzione D</span>&nbsp;<b>strumento completo (preassemblato):</b> strumento pronto all'uso, già preassemblato nel box realizzato in stampa 3D, con incluso il milliamperometro;"
                     ],
                     "footer": "<b><i>In ogni caso, la pila 9V è esclusa</i></b>"
                 },
@@ -208,7 +207,31 @@
         },
         "usage": {
             "header": "Utilizzo dello strumento",
-            "steps": []
+            "steps": [
+                {
+                    "header": "1. accendere lo strumento e calibrarlo",
+                    "images": [
+                        {
+                            "src": "assets/images/usage_01.jpg",
+                            "text": "tenendo i puntali in corto circuito, ruotare il potenziometro fino a portare la lancetta dello strumento sullo 0 (a destra)"
+                        }
+                    ]
+                },
+                {
+                    "header": "2. effettuare la misura",
+                    "subheader": "collegare i puntali ai reofori del condensatore. Minore sarà la resistenza misurata (lancetta tutta verso destra), maggiore sarà la qualità del condensatore. Nelle foto è mostrata una misurazione di un condensatore visibilmente danneggiato, e di uno nuovo.<br><b>NOTA: la misura può essere effettuata anche su condensatori saldati su circuito stampato (non è necessario rimuoverli).</b>",
+                    "images": [
+                        {
+                            "src": "assets/images/usage_02.jpg",
+                            "text": "<b>esempio di misura di un condensatore guasto</b>"
+                        },
+                        {
+                            "src": "assets/images/usage_03.jpg",
+                            "text": "<b>esempio di misura di un condensatore in ottimo stato</b>"
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
