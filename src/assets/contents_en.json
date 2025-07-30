@@ -73,7 +73,7 @@
                     "footer": "<b><i>In any case, the 9V battery is excluded</i></b>"
                 },
                 {
-                    "subheader": "<br><b>(**) model files for 3D printing of box are freely downloadable from here:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"/assets/files/esr_meter-box-model-20250720.zip\">Download STL files</a>"
+                    "subheader": "<br><b>(**) model files for 3D printing of box are freely downloadable from here:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter-box-model-20250720.zip\">Download STL files</a>"
                 }
             ]
         },
