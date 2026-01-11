@@ -188,7 +188,7 @@
                         },
                         {
                             "src": "assets/images/assembly_08.jpg",
-                            "text": "solder together the two red wires and the two black wires coming from the battery and the \"power\" LED on the CN1 pads, <b>respecting the indicated polarity (important!)</b>"
+                            "text": "solder together the two red wires and the two black wires coming from the battery and the \"power\" LED on the CN1 pads, <b>respecting the indicated polarity (important!)</b><br>Also secure the LEDs in their housings with a drop of hot glue."
                         },
                         {
                             "src": "assets/images/assembly_09.jpg",
