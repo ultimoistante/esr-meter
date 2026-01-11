@@ -45,7 +45,7 @@
         "materials": {
             "paragraphs": [
                 {
-                    "header": "Needed materials*",
+                    "header": "Needed materials",
                     "list": [
                         "electronics: preassembled circuit, switch, potentiometer, leds, 9V battery snap;",
                         "a cheap multimeter, <b>model YX-1000A</b> (sold in chinese/dollar stores);",
@@ -59,11 +59,12 @@
                     "list": [
                         "soldering iron for small circuits;",
                         "various tools: tweezers, wire strippers, screwdriver;",
-                        "hand saw;"
+                        "hand saw;",
+                        "hot glue gun;"
                     ]
                 },
                 {
-                    "subheader": "<br><h3>Notes</h3><b>(*) you can purchase the kit in various versions:</b>",
+                    "subheader": "<br><h3>Notes</h3><b>you can purchase the kit in various versions:</b>",
                     "list": [
                         "<span class=\"badge rounded-pill badge-bg-1\">option A</span>&nbsp;<b>electronics only:</b> you will only be provided with the printed circuit board and accessory components (LEDs, potentiometer, switch, 9V battery snap), <b>excluding the YX-1000A multimeter</b>. Useful if you want to use your own box, or print the box yourself with your 3D printer, and you already have an YX-1000A multimeter (or another millammeter);",
                         "<span class=\"badge rounded-pill badge-bg-2\">option B</span>&nbsp;<b>electronics + box (DIY assembly):</b> all the electronics (printed circuit board, LEDs, potentiometer, switch, snap for 9V battery) and the 3D printed box <i>(you need to assemble it by yourself)</i>;",
@@ -131,33 +132,43 @@
             "header": "Assembly",
             "steps": [
                 {
-                    "header": "1. assembly of the test lead bushings",
+                    "header": "1. assembling switch and 9V battery snap",
                     "images": [
                         {
                             "src": "assets/images/assembly_01.jpg",
+                            "text": "1. insert the switch<br>2. place battery snap wires as shown<br>3. cut <b>only red wire</b> near switch terminals<br>4. strip endings of red wire where cut, and solder them on the switch terminals"
+                        }
+                    ]
+                },
+                {
+                    "header": "2. preparing LEDs",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_02.jpg",
+                            "text": "1. Place the power LED in the housing closest to the switch, and cut the excess wires at the indicated point <b>(NOTE: the power LED is the one equipped with a resistor).</b><br>2. cut a 6 cm piece of wire<br>3. Prepare the red LED by soldering the wire to its terminals, observing the polarity (red: anode, black: cathode)."
+                        }
+                    ]
+                },
+                {
+                    "header": "3. preparation of the potentiometer",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_03.jpg",
+                            "text": "Solder three 5 cm wires to the potentiometer terminals."
+                        }
+                    ]
+                },
+                {
+                    "header": "4. assembly of the test lead bushings",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_04.jpg",
                             "text": "insert the previously cutted PCB strip with the bushings into the box, pushing the bushings into the holes until they touch the plastic, then secure the locking bracket with two screws, letting the wires come out of the two slots"
                         }
                     ]
                 },
                 {
-                    "header": "2. assembly of the front components",
-                    "images": [
-                        {
-                            "src": "assets/images/assembly_02.jpg",
-                            "text": "insert the power switch and the two LEDs. NOTE: One of the LEDs has a resistor and must be inserted into the socket marked with 'on'. <i>Optional: If the LEDs are not locked into place, you can secure them with a drop of glue.</i>"
-                        },
-                        {
-                            "src": "assets/images/assembly_03.jpg",
-                            "text": "solder three wires onto the potentiometer pins, attach it to the front of the box, and add the knob"
-                        },
-                        {
-                            "src": "assets/images/assembly_04.jpg",
-                            "text": "add the snap for the 9V battery, cutting the red wire at the switch, and soldering it to its terminals"
-                        }
-                    ]
-                },
-                {
-                    "header": "3. circuit connections",
+                    "header": "5. circuit connections",
                     "images": [
                         {
                             "src": "assets/images/pcb_connections.png",
@@ -169,14 +180,18 @@
                         },
                         {
                             "src": "assets/images/assembly_06.jpg",
-                            "text": "solder the \"short\" LED wires to the LED1 pads (respecting the polarity) and the wires of test lead terminals to CN2"
+                            "text": "solder the wires of red LED (\"short\" LED) to the LED1 pads (respecting the polarity) and the wires of test lead terminals to CN2"
                         },
                         {
                             "src": "assets/images/assembly_07.jpg",
-                            "text": "solder together the two red wires and the two black wires coming from the battery and the \"power\" LED on the CN1 pads, respecting the indicated polarity"
+                            "text": "insert the milliammeter into the box and secure it with some hot glue"
                         },
                         {
                             "src": "assets/images/assembly_08.jpg",
+                            "text": "solder together the two red wires and the two black wires coming from the battery and the \"power\" LED on the CN1 pads, <b>respecting the indicated polarity (important!)</b>"
+                        },
+                        {
+                            "src": "assets/images/assembly_09.jpg",
                             "text": "then solder the two wires coming from the milliammeter on CN3"
                         }
                     ]
@@ -185,11 +200,11 @@
                     "header": "4. final steps",
                     "images": [
                         {
-                            "src": "assets/images/assembly_09.jpg",
+                            "src": "assets/images/assembly_10.jpg",
                             "text": "fix the circuit to the box using 3 screws"
                         },
                         {
-                            "src": "assets/images/assembly_10.jpg",
+                            "src": "assets/images/assembly_11.jpg",
                             "text": "close the back cover with the four screws in the corners, insert the battery and close the battery compartment with another screw"
                         }
                     ]
@@ -198,11 +213,11 @@
                     "header": "5. troubleshooting",
                     "images": [
                         {
-                            "src": "assets/images/assembly_11.jpg",
+                            "src": "assets/images/assembly_12.jpg",
                             "text": "If, by short-circuiting the probes, you should see the needle move to the left, you will simply need to invert the connection of the two milliammeter wires on the printed circuit board"
                         },
                         {
-                            "src": "assets/images/assembly_12.jpg",
+                            "src": "assets/images/assembly_13.jpg",
                             "text": "by keeping the leads short-circuited and rotating the potentiometer clockwise, you should see the needle move to the right. If the needle moves to the left, simply reverse the connections of the two outer pins of the potentiometer"
                         }
                     ]

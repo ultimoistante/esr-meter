@@ -45,7 +45,7 @@
         "materials": {
             "paragraphs": [
                 {
-                    "header": "Materiale necessario*",
+                    "header": "Materiale necessario",
                     "list": [
                         "elettronica: circuito preassemblato, interruttore, potenziometro, leds, snap per pila 9V;",
                         "un multimetro economico <b>modello YX-1000A</b> (reperibile nei negozi cinesi);",
@@ -59,11 +59,12 @@
                     "list": [
                         "saldatore per piccoli circuiti;",
                         "attrezzi vari: pinzette, spelafili, cacciavite;",
-                        "seghetto manuale;"
+                        "seghetto manuale;",
+                        "pistola per colla a caldo;"
                     ]
                 },
                 {
-                    "subheader": "<br><h3>Note</h3><b>(*) è possibile acquistare il kit in varie versioni:</b>",
+                    "subheader": "<br><h3>Note</h3><b>è possibile acquistare il kit in varie versioni:</b>",
                     "list": [
                         "<span class=\"badge rounded-pill badge-bg-1\">opzione A</span>&nbsp;<b>solo elettronica:</b> vi verrà fornito unicamente il circuito stampato e i componenti accessori (leds, potenziometro, interruttore, snap per pila 9V), <b>escluso il multimetro YX-1000A</b>. Utile qualora vogliate usare un vostro box, o stamparvi da soli il box con la vostra stampante 3D, e disponete già del multimetro YX-1000A (o un altro milliamperometro);",
                         "<span class=\"badge rounded-pill badge-bg-2\">opzione B</span>&nbsp;<b>elettronica + box (kit fai-da-te):</b> tutta l'elettronica (circuito stampato, leds, potenziometro, interruttore, snap per pila 9V) e il box stampato in 3D <i>(assemblaggio fai-da-te)</i>;",
@@ -131,33 +132,43 @@
             "header": "Assemblaggio",
             "steps": [
                 {
-                    "header": "1. montaggio delle boccole dei puntali",
+                    "header": "1. montaggio interruttore e snap per pila da 9V",
                     "images": [
                         {
                             "src": "assets/images/assembly_01.jpg",
-                            "text": "inserire la striscia di circuito stampato con le boccole nel box, spingendo le boccole nei fori fino ad arrivare a battuta con la plastica, quindi fissare l'angolare di blocco con due viti, facendo fuoriuscire i fili dalle due asole"
+                            "text": "1. inserire l'interruttore<br>2. posizionare i fili dello snap per la pila come indicato<br>3. tagliare <b>solo il filo rosso</b> in corrispondenza dei terminali dell'interruttore<br>4. spelare le estremità del filo rosso in corrispondenza del taglio, e saldarle sui terminali dell'interruttore"
                         }
                     ]
                 },
                 {
-                    "header": "2. montaggio dei componenti frontali",
+                    "header": "2. preparazione dei LEDs",
                     "images": [
                         {
                             "src": "assets/images/assembly_02.jpg",
-                            "text": "inserire l'interruttore di accensione e i due led. NOTA: uno dei led è provvisto di resistore, e va inserito nella boccola contrassegnata dalla scritta 'on'. <i>Opzionale: qualora i led non dovessero risultare bloccati nel loro alloggiamento, è possibile fissarli con una goccia di colla</i>"
-                        },
-                        {
-                            "src": "assets/images/assembly_03.jpg",
-                            "text": "saldare tre fili sui pin del potenziometro, fissarlo al frontale del box, e aggiungere la manopola"
-                        },
-                        {
-                            "src": "assets/images/assembly_04.jpg",
-                            "text": "aggiungere lo snap per la pila da 9V, tagliando il filo rosso in corrispondenza dell'interruttore, e saldarlo sui terminali"
+                            "text": "1. Posizionare il led di accensione nell'alloggiamento più vicino all'interruttore, e tagliare l'eccedenza dei fili in corrispondenza del punto indicato <b>(NOTA: il led di accensione è quello provvisto di resistore)</b><br>2. tagliare un pezzo di filo da 6 cm<br>3. preparare il led rosso saldando il filo sui suoi terminali rispettando la polarità (rosso: anodo, nero: catodo)"
                         }
                     ]
                 },
                 {
-                    "header": "3. collegamenti al circuito",
+                    "header": "3. preparazione del potenziometro",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_03.jpg",
+                            "text": "Saldare 3 fili da 5 cm sui terminali del potenziometro"
+                        }
+                    ]
+                },
+                {
+                    "header": "4. assemblaggio delle boccole dei puntali",
+                    "images": [
+                        {
+                            "src": "assets/images/assembly_04.jpg",
+                            "text": "Inserire la striscia di circuito stampato con le boccole nel box, spingendo le boccole nei fori fino ad arrivare a battuta con la plastica, quindi fissare l'angolare di blocco con due viti, facendo fuoriuscire i fili dalle due asole"
+                        }
+                    ]
+                },
+                {
+                    "header": "5. collegamenti al circuito",
                     "images": [
                         {
                             "src": "assets/images/pcb_connections.png",
@@ -169,14 +180,18 @@
                         },
                         {
                             "src": "assets/images/assembly_06.jpg",
-                            "text": "saldare i fili del led \"short\" sulle piazzole LED1 (rispettando la polarità) e i fili delle boccole dei puntali su CN2"
+                            "text": "saldare i fili del led rosso (\"short\") sulle piazzole LED1 (rispettando la polarità) e i fili delle boccole dei puntali su CN2"
                         },
                         {
                             "src": "assets/images/assembly_07.jpg",
-                            "text": "saldare insieme i due fili rossi e i due fili neri provenienti dalla batteria e dal led \"power\" sulle piazzole CN1, rispettando la polarità indicata"
+                            "text": "inserire il milliamperometro nel box, e fissarlo con un filo di colla a caldo"
                         },
                         {
                             "src": "assets/images/assembly_08.jpg",
+                            "text": "saldare insieme i due fili rossi e i due fili neri provenienti dalla batteria e dal led \"power\" sulle piazzole CN1, <b>rispettando la polarità indicata (importante!)</b><br>Fissare con una goccia di colla a caldo anche i LEDs nei loro alloggiamenti."
+                        },
+                        {
+                            "src": "assets/images/assembly_09.jpg",
                             "text": "saldare quindi i due fili provenienti dal milliamperometro su CN3"
                         }
                     ]
@@ -185,11 +200,11 @@
                     "header": "4. steps finali",
                     "images": [
                         {
-                            "src": "assets/images/assembly_09.jpg",
+                            "src": "assets/images/assembly_10.jpg",
                             "text": "fissare il circuito al box mediante 3 viti"
                         },
                         {
-                            "src": "assets/images/assembly_10.jpg",
+                            "src": "assets/images/assembly_11.jpg",
                             "text": "chiudere il coperchio posteriore con le quattro viti negli angoli, inserire la pila e chiudere il vano della pila con un'altra vite"
                         }
                     ]
@@ -198,11 +213,11 @@
                     "header": "5. risoluzione problemi",
                     "images": [
                         {
-                            "src": "assets/images/assembly_11.jpg",
+                            "src": "assets/images/assembly_12.jpg",
                             "text": "qualora, cortocircuitando i puntali, dovreste vedere la lancetta muoversi verso sinistra, vi basterà semplicemente invertire il collegamento dei due fili del milliamperometro sul circuito stampato"
                         },
                         {
-                            "src": "assets/images/assembly_12.jpg",
+                            "src": "assets/images/assembly_13.jpg",
                             "text": "tenendo cortocircuitati i puntali, e ruotando il potenziometro in senso orario, dovreste vedere la lancetta dello strumento spostarsi verso destra. Se la lancetta dovesse spostarsi verso sinistra, vi basterà invertire i collegamenti dei due pin esterni del potenziometro"
                         }
                     ]
