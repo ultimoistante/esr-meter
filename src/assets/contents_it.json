@@ -74,7 +74,7 @@
                     "footer": "<b><i>In ogni caso, la pila 9V è esclusa</i></b>"
                 },
                 {
-                    "subheader": "<br><b>(**) i files per la stampa 3D del box sono liberamente scaricabili da qui:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter-box-model-20260213.zip\">Scarica files STL</a>"
+                    "subheader": "<br><b>(**) i files per la stampa 3D del box sono liberamente scaricabili da qui:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter-box-model-20260213.zip\">Scarica files STL</a><br><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter_scale.pdf\">Scarica file PDF della scala</a>"
                 }
             ]
         },
@@ -206,6 +206,10 @@
                         {
                             "src": "assets/images/assembly_11.jpg",
                             "text": "chiudere il coperchio posteriore con le quattro viti negli angoli, inserire la pila e chiudere il vano della pila con un'altra vite"
+                        },
+                        {
+                            "src": "assets/images/assembly_12.jpg",
+                            "text": "<b>[opzionale]</b> per una lettura più immediata, è possibile applicare una scala disegnata appositamente per questo strumento (il link al file PDF da stampare si trova cliccando sul bottone in basso, o a inizio pagina)<br><ol><li>ritagliare l'etichetta come da foto</li><li>applicare della colla stick sul retro</li><li>rimuovere la copertura trasparente dallo strumento, e far scivolare l'etichetta seguendo il verso indicato dalla freccia</li><li>una volta controllato che la lancetta sia libera di muoversi, richiudere la copertura trasparente</li></ol><b>NOTA: fare molta attenzione a non danneggiare la lancetta dello strumento.</b> Una volta posizionata l'etichetta, farla aderire perfettamente al quadrante utilizzando un oggetto in plastica o un cotton-fioc.<br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter_scale.pdf\">Scarica file PDF della scala</a><br><br>"
                         }
                     ]
                 },
@@ -213,11 +217,11 @@
                     "header": "5. risoluzione problemi",
                     "images": [
                         {
-                            "src": "assets/images/assembly_12.jpg",
+                            "src": "assets/images/troubleshoot_01.jpg",
                             "text": "qualora, cortocircuitando i puntali, dovreste vedere la lancetta muoversi verso sinistra, vi basterà semplicemente invertire il collegamento dei due fili del milliamperometro sul circuito stampato"
                         },
                         {
-                            "src": "assets/images/assembly_13.jpg",
+                            "src": "assets/images/troubleshoot_02.jpg",
                             "text": "tenendo cortocircuitati i puntali, e ruotando il potenziometro in senso orario, dovreste vedere la lancetta dello strumento spostarsi verso destra. Se la lancetta dovesse spostarsi verso sinistra, vi basterà invertire i collegamenti dei due pin esterni del potenziometro"
                         }
                     ]

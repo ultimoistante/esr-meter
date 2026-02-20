@@ -74,7 +74,7 @@
                     "footer": "<b><i>In any case, the 9V battery is excluded</i></b>"
                 },
                 {
-                    "subheader": "<br><b>(**) model files for 3D printing of box are freely downloadable from here:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter-box-model-20260213.zip\">Download STL files</a>"
+                    "subheader": "<br><b>(**) model files for 3D printing of box are freely downloadable from here:</b><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter-box-model-20260213.zip\">Download STL files</a><br><br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter_scale.pdf\">Download PDF file of the scale</a>"
                 }
             ]
         },
@@ -206,6 +206,10 @@
                         {
                             "src": "assets/images/assembly_11.jpg",
                             "text": "close the back cover with the four screws in the corners, insert the battery and close the battery compartment with another screw"
+                        },
+                        {
+                            "src": "assets/images/assembly_12.jpg",
+                            "text": "<b>[optional]</b> for easier reading, you can apply a scale designed specifically for this tool (the link to the PDF file to print can be found by clicking on the button below, or at the top of the page)<br><ol><li>cut out the label as shown in the photo</li><li>apply some glue stick to the back.</li><li>remove the transparent cover from the instrument and slide the label in the direction of the arrow</li><li>once you have checked that the needle can move freely, close the transparent cover again.</li></ol><b>NOTE: take great care not to damage the instrument's pointer.</b> Once the label is in place, press it firmly onto the instrument using a plastic object or a cotton swab.<br><a class=\"btn btn-primary\" role=\"button\" href=\"assets/files/esr_meter_scale.pdf\">Download PDF file of the scale</a><br><br>"
                         }
                     ]
                 },
@@ -213,11 +217,11 @@
                     "header": "5. troubleshooting",
                     "images": [
                         {
-                            "src": "assets/images/assembly_12.jpg",
+                            "src": "assets/images/troubleshoot_01.jpg",
                             "text": "If, by short-circuiting the probes, you should see the needle move to the left, you will simply need to invert the connection of the two milliammeter wires on the printed circuit board"
                         },
                         {
-                            "src": "assets/images/assembly_13.jpg",
+                            "src": "assets/images/troubleshoot_02.jpg",
                             "text": "by keeping the leads short-circuited and rotating the potentiometer clockwise, you should see the needle move to the right. If the needle moves to the left, simply reverse the connections of the two outer pins of the potentiometer"
                         }
                     ]
